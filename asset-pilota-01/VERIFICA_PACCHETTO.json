@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "pilotImages": 15,
+  "individualPrompts": 15,
+  "sourceCopiesUnchanged": 22,
+  "referenceDocuments": 15,
+  "checkedManifestEntries": 62,
+  "newProductionImages": 0,
+  "problems": []
+}

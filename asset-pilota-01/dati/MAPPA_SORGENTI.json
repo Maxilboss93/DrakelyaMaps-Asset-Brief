@@ -1,0 +1,612 @@
+[
+  {
+    "file": "sorgenti/public/map-assets/world-v01/w-tex-001-87e915fb97c5.png",
+    "originalRepositoryPath": "public/map-assets/world-v01/w-tex-001-87e915fb97c5.png",
+    "sha256": "87e915fb97c5d7169c18e69a01a7b28533190d0a00806fdb1ce7da99e9027377",
+    "bytes": 2580591,
+    "originalDimensions": [
+      1254,
+      1254
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [
+      {
+        "key": "classic:W-TEX-001",
+        "aliases": [
+          "classic:W-TEX-001",
+          "illustrated:W-TEX-001"
+        ],
+        "cropNativePx": {
+          "x": 0,
+          "y": 0,
+          "width": 1254,
+          "height": 1254
+        },
+        "board": "reference/catalogue-textures-01.webp"
+      }
+    ],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/public/map-assets/world-v01/w-tex-002-b176722bed3d.png",
+    "originalRepositoryPath": "public/map-assets/world-v01/w-tex-002-b176722bed3d.png",
+    "sha256": "b176722bed3db2c9300a21db04dc0c786dded9a9c78634218f8d38e680fbe30e",
+    "bytes": 2521253,
+    "originalDimensions": [
+      1254,
+      1254
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [
+      {
+        "key": "classic:W-TEX-002",
+        "aliases": [
+          "classic:W-TEX-002",
+          "illustrated:W-TEX-002"
+        ],
+        "cropNativePx": {
+          "x": 0,
+          "y": 0,
+          "width": 1254,
+          "height": 1254
+        },
+        "board": "reference/catalogue-textures-01.webp"
+      }
+    ],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/public/map-assets/world-v01/w-tex-003-8603b96eb7f5.png",
+    "originalRepositoryPath": "public/map-assets/world-v01/w-tex-003-8603b96eb7f5.png",
+    "sha256": "8603b96eb7f5b9be6df6a5d660b3846ad96e96bedbb610e949457b42fced411f",
+    "bytes": 3120734,
+    "originalDimensions": [
+      1254,
+      1254
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [
+      {
+        "key": "classic:W-TEX-003",
+        "aliases": [
+          "classic:W-TEX-003",
+          "illustrated:W-TEX-003"
+        ],
+        "cropNativePx": {
+          "x": 0,
+          "y": 0,
+          "width": 1254,
+          "height": 1254
+        },
+        "board": "reference/catalogue-textures-01.webp"
+      }
+    ],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/public/map-assets/world-v01/w-tex-004-734e1e8c9ba5.png",
+    "originalRepositoryPath": "public/map-assets/world-v01/w-tex-004-734e1e8c9ba5.png",
+    "sha256": "734e1e8c9ba507d47ac5174fbc913699f408234acc46258ea1c808f449648d17",
+    "bytes": 2690980,
+    "originalDimensions": [
+      1254,
+      1254
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [
+      {
+        "key": "classic:W-TEX-004",
+        "aliases": [
+          "classic:W-TEX-004",
+          "illustrated:W-TEX-004"
+        ],
+        "cropNativePx": {
+          "x": 0,
+          "y": 0,
+          "width": 1254,
+          "height": 1254
+        },
+        "board": "reference/catalogue-textures-01.webp"
+      }
+    ],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/public/map-assets/world-v01/w-tex-grass-soft-932cf8b3e951.png",
+    "originalRepositoryPath": "public/map-assets/world-v01/w-tex-grass-soft-932cf8b3e951.png",
+    "sha256": "932cf8b3e95109290b10a763306872d3b650e3a44f28fb2464c893ba7a27d469",
+    "bytes": 2466190,
+    "originalDimensions": [
+      1254,
+      1254
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [
+      {
+        "key": "classic:W-TEX-GRASS-SOFT",
+        "aliases": [
+          "classic:W-TEX-GRASS-SOFT",
+          "illustrated:W-TEX-GRASS-SOFT"
+        ],
+        "cropNativePx": {
+          "x": 0,
+          "y": 0,
+          "width": 1254,
+          "height": 1254
+        },
+        "board": "reference/catalogue-textures-01.webp"
+      }
+    ],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/public/map-assets/world-v01/w-rel-001-1c9e9ceeb025.png",
+    "originalRepositoryPath": "public/map-assets/world-v01/w-rel-001-1c9e9ceeb025.png",
+    "sha256": "1c9e9ceeb02563d2b441ddd3f57937783adc3b55bbb7e4208fd36cabec0bb678",
+    "bytes": 2305880,
+    "originalDimensions": [
+      1536,
+      1024
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [
+      {
+        "key": "classic:W-REL-001",
+        "aliases": [
+          "classic:W-REL-001"
+        ],
+        "cropNativePx": {
+          "x": 70,
+          "y": 95,
+          "width": 1408,
+          "height": 857
+        },
+        "board": "reference/catalogue-relief-01.webp"
+      }
+    ],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/public/map-assets/world-v01/w-rel-003-66d3312a52b0.png",
+    "originalRepositoryPath": "public/map-assets/world-v01/w-rel-003-66d3312a52b0.png",
+    "sha256": "66d3312a52b0d10f317746e28d001b3d181557faf329d9bfec5fe06f1e5dd6b2",
+    "bytes": 1950385,
+    "originalDimensions": [
+      1536,
+      1024
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [
+      {
+        "key": "classic:W-REL-003",
+        "aliases": [
+          "classic:W-REL-003"
+        ],
+        "cropNativePx": {
+          "x": 55,
+          "y": 251,
+          "width": 1441,
+          "height": 581
+        },
+        "board": "reference/catalogue-relief-01.webp"
+      }
+    ],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/public/map-assets/world-v01/w-rel-001-f02-e446aa8a1208.png",
+    "originalRepositoryPath": "public/map-assets/world-v01/w-rel-001-f02-e446aa8a1208.png",
+    "sha256": "e446aa8a12081bc986d7b1a52c6ad346a2e10dd0645e2b177bac287ee08310d2",
+    "bytes": 2170325,
+    "originalDimensions": [
+      1536,
+      1024
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [
+      {
+        "key": "classic:W-REL-001-F02",
+        "aliases": [
+          "classic:W-REL-001-F02"
+        ],
+        "cropNativePx": {
+          "x": 138,
+          "y": 47,
+          "width": 1285,
+          "height": 947
+        },
+        "board": "reference/catalogue-relief-01.webp"
+      }
+    ],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/public/map-assets/world-v01/w-rel-001-f03-3969406456f0.png",
+    "originalRepositoryPath": "public/map-assets/world-v01/w-rel-001-f03-3969406456f0.png",
+    "sha256": "3969406456f00c443271c15892a60ecc9e1e734aa45368ce3500f74805db2360",
+    "bytes": 2587193,
+    "originalDimensions": [
+      1536,
+      1024
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [
+      {
+        "key": "classic:W-REL-001-F03",
+        "aliases": [
+          "classic:W-REL-001-F03"
+        ],
+        "cropNativePx": {
+          "x": 28,
+          "y": 120,
+          "width": 1481,
+          "height": 813
+        },
+        "board": "reference/catalogue-relief-01.webp"
+      }
+    ],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/public/map-assets/world-v01/w-rel-003-f02-9474b8e8f6c3.png",
+    "originalRepositoryPath": "public/map-assets/world-v01/w-rel-003-f02-9474b8e8f6c3.png",
+    "sha256": "9474b8e8f6c3bea80cffc6431bfe0aa1cbf81b0636e9dd5c0768e59a98122248",
+    "bytes": 2462239,
+    "originalDimensions": [
+      1536,
+      1024
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [
+      {
+        "key": "classic:W-REL-003-F02",
+        "aliases": [
+          "classic:W-REL-003-F02"
+        ],
+        "cropNativePx": {
+          "x": 18,
+          "y": 187,
+          "width": 1503,
+          "height": 680
+        },
+        "board": "reference/catalogue-relief-02.webp"
+      }
+    ],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/public/map-assets/world-v01/w-rel-003-f03-3e363e3d5725.png",
+    "originalRepositoryPath": "public/map-assets/world-v01/w-rel-003-f03-3e363e3d5725.png",
+    "sha256": "3e363e3d5725c272d5dfcdd35c9dbee495b193152db4c7777c5991385cb534ec",
+    "bytes": 1906489,
+    "originalDimensions": [
+      1536,
+      1024
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [
+      {
+        "key": "classic:W-REL-003-F03",
+        "aliases": [
+          "classic:W-REL-003-F03"
+        ],
+        "cropNativePx": {
+          "x": 19,
+          "y": 285,
+          "width": 1505,
+          "height": 498
+        },
+        "board": "reference/catalogue-relief-02.webp"
+      }
+    ],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/public/map-assets/relief-reviewed/relief-59641af21c1a.webp",
+    "originalRepositoryPath": "public/map-assets/relief-reviewed/relief-59641af21c1a.webp",
+    "sha256": "59641af21c1a0f92a37cd448761f354c2764831c90c63333dab2d10592bdaae3",
+    "bytes": 2758608,
+    "originalDimensions": [
+      2048,
+      1733
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [
+      {
+        "key": "illustrated:W-REL-001",
+        "aliases": [
+          "illustrated:W-REL-001"
+        ],
+        "cropNativePx": {
+          "x": 8,
+          "y": 8,
+          "width": 496,
+          "height": 302
+        },
+        "board": "reference/catalogue-relief-02.webp"
+      },
+      {
+        "key": "illustrated:W-REL-003",
+        "aliases": [
+          "illustrated:W-REL-003"
+        ],
+        "cropNativePx": {
+          "x": 8,
+          "y": 771,
+          "width": 496,
+          "height": 200
+        },
+        "board": "reference/catalogue-relief-02.webp"
+      },
+      {
+        "key": "illustrated:W-REL-004",
+        "aliases": [
+          "illustrated:W-REL-004",
+          "illustrated:P2D-SCREE-A"
+        ],
+        "cropNativePx": {
+          "x": 1032,
+          "y": 1011,
+          "width": 496,
+          "height": 364
+        },
+        "board": "reference/catalogue-relief-02.webp"
+      },
+      {
+        "key": "illustrated:W-REL-004-F02",
+        "aliases": [
+          "illustrated:W-REL-004-F02",
+          "illustrated:P2D-SCREE-B"
+        ],
+        "cropNativePx": {
+          "x": 1544,
+          "y": 1011,
+          "width": 496,
+          "height": 271
+        },
+        "board": "reference/catalogue-relief-02.webp"
+      },
+      {
+        "key": "illustrated:W-REL-004-F03",
+        "aliases": [
+          "illustrated:W-REL-004-F03",
+          "illustrated:P2D-SCREE-C"
+        ],
+        "cropNativePx": {
+          "x": 8,
+          "y": 1391,
+          "width": 496,
+          "height": 334
+        },
+        "board": "reference/catalogue-relief-02.webp"
+      },
+      {
+        "key": "illustrated:W-REL-001-F02",
+        "aliases": [
+          "illustrated:W-REL-001-F02"
+        ],
+        "cropNativePx": {
+          "x": 520,
+          "y": 8,
+          "width": 496,
+          "height": 366
+        },
+        "board": "reference/catalogue-relief-03.webp"
+      },
+      {
+        "key": "illustrated:W-REL-001-F03",
+        "aliases": [
+          "illustrated:W-REL-001-F03"
+        ],
+        "cropNativePx": {
+          "x": 1032,
+          "y": 8,
+          "width": 496,
+          "height": 272
+        },
+        "board": "reference/catalogue-relief-03.webp"
+      },
+      {
+        "key": "illustrated:W-REL-003-F02",
+        "aliases": [
+          "illustrated:W-REL-003-F02"
+        ],
+        "cropNativePx": {
+          "x": 520,
+          "y": 771,
+          "width": 496,
+          "height": 224
+        },
+        "board": "reference/catalogue-relief-03.webp"
+      },
+      {
+        "key": "illustrated:W-REL-003-F03",
+        "aliases": [
+          "illustrated:W-REL-003-F03",
+          "illustrated:P2D-ROCKY-HILL"
+        ],
+        "cropNativePx": {
+          "x": 1032,
+          "y": 771,
+          "width": 496,
+          "height": 164
+        },
+        "board": "reference/catalogue-relief-03.webp"
+      }
+    ],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/public/map-assets/illustrated-packed/vegetation-0-e6906ab24514.webp",
+    "originalRepositoryPath": "public/map-assets/illustrated-packed/vegetation-0-e6906ab24514.webp",
+    "sha256": "e6906ab24514e8ef2b7b7d319cfcf4922f6cd854046efd35b44792a0faa6eb57",
+    "bytes": 1991542,
+    "originalDimensions": [
+      1992,
+      911
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [
+      {
+        "key": "illustrated:P2D-FOREST-EDGE",
+        "aliases": [
+          "illustrated:P2D-FOREST-EDGE"
+        ],
+        "cropNativePx": {
+          "x": 1330,
+          "y": 326,
+          "width": 328,
+          "height": 280
+        },
+        "board": "reference/catalogue-vegetation-05.webp"
+      },
+      {
+        "key": "illustrated:P2D-SHRUB",
+        "aliases": [
+          "illustrated:P2D-SHRUB"
+        ],
+        "cropNativePx": {
+          "x": 1485,
+          "y": 371,
+          "width": 150,
+          "height": 135
+        },
+        "board": "reference/catalogue-vegetation-05.webp"
+      }
+    ],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/art-source/illustrated-v2/terrain-atlas.png",
+    "originalRepositoryPath": "art-source/illustrated-v2/terrain-atlas.png",
+    "sha256": "2627094170e85539e67eb81fd5c14ed97a48c17b1729ea67aff90f80793d41be",
+    "bytes": 2752016,
+    "originalDimensions": [
+      1536,
+      1024
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/art-source/illustrated-v2/vegetation-atlas.png",
+    "originalRepositoryPath": "art-source/illustrated-v2/vegetation-atlas.png",
+    "sha256": "086b8592d0a78ef31b0113fcfbb4d28a0d4352f8d0df545d019d1a698dc91c71",
+    "bytes": 3151268,
+    "originalDimensions": [
+      1536,
+      1024
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/art-source/regional-landmarks-v1/foothills.png",
+    "originalRepositoryPath": "art-source/regional-landmarks-v1/foothills.png",
+    "sha256": "47e20c222c407b703c37e6b39315110114ec258904b5d7439bcfc78ede55123d",
+    "bytes": 2099834,
+    "originalDimensions": [
+      1983,
+      793
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/art-source/manual-mountain-kit-v4/massif.webp",
+    "originalRepositoryPath": "art-source/manual-mountain-kit-v4/massif.webp",
+    "sha256": "df5872e3daa54dcbfd78705e93ca13771499a415e886722920e0eafa56508959",
+    "bytes": 161260,
+    "originalDimensions": [
+      768,
+      608
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/art-source/manual-mountain-kit-v4/saddle.webp",
+    "originalRepositoryPath": "art-source/manual-mountain-kit-v4/saddle.webp",
+    "sha256": "9bacfa892e63140f701f38bc83c63b75e7db54b42d90193ccb82c9a486e77c29",
+    "bytes": 77470,
+    "originalDimensions": [
+      768,
+      274
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/art-source/manual-mountain-kit-v4/massif-source.png",
+    "originalRepositoryPath": "art-source/manual-mountain-kit-v4/massif-source.png",
+    "sha256": "338e221a8c799e8702963f1b4b77fab28e9f05e50d92c4ad93ae6c830905ac33",
+    "bytes": 1822270,
+    "originalDimensions": [
+      1374,
+      1145
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/art-source/manual-mountain-kit-v4/saddle-source.png",
+    "originalRepositoryPath": "art-source/manual-mountain-kit-v4/saddle-source.png",
+    "sha256": "0a5ef38e6da55ac5266a584ab5da2b4ca4f4e64c3a6cd3d786f4d763d9fdb7c0",
+    "bytes": 1177182,
+    "originalDimensions": [
+      1678,
+      937
+    ],
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/art-source/manual-mountain-kit-v4/catalog.json",
+    "originalRepositoryPath": "art-source/manual-mountain-kit-v4/catalog.json",
+    "sha256": "2b159b10a672ce946029c25a8b8cc117323368e7aebab61d2500f2ccdd7d38a4",
+    "bytes": 1183,
+    "originalDimensions": null,
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  },
+  {
+    "file": "sorgenti/art-source/manual-mountain-kit-v4/README.md",
+    "originalRepositoryPath": "art-source/manual-mountain-kit-v4/README.md",
+    "sha256": "475e5062898e6738862d2af2d06d4e6a1564c1b38f36075523df136f99fe627c",
+    "bytes": 3561,
+    "originalDimensions": null,
+    "purpose": "Sorgente da adattare o riferimento strutturale; non approvazione automatica di stile, luce o bordo",
+    "provenance": null,
+    "views": [],
+    "rights": "La presenza nel pacchetto non stabilisce una licenza di redistribuzione. Conservare provenienza e termini effettivi; non inventare una licenza."
+  }
+]

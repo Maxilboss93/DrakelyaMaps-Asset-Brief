@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "file": "00_PRIMO_MESSAGGIO_DA_COPIARE.txt",
+      "bytes": 912,
+      "sha256": "51cd49d4252492d471ea206aafd84649519138f1adbc7a11c31c5853cf06aeb8"
+    },
+    {
+      "file": "01_DIREZIONE_COMUNE.md",
+      "bytes": 4618,
+      "sha256": "d665c6a8b10c0403cef7e18099f4443ed7458ee4de1636fc1cc684e1400c0944"
+    },
+    {
+      "file": "02_DISTINTA_15_FILE.md",
+      "bytes": 1453,
+      "sha256": "187803f77db4f354fb5065dbbc54db8c9c406a5d703e35c97097d5c8c14d57c6"
+    },
+    {
+      "file": "03_CONSEGNA_E_QA.md",
+      "bytes": 3187,
+      "sha256": "c73c9469fba40932087cdb74338461b55cc048d417f5d90a79d3f775401fe7ec"
+    },
+    {
+      "file": "BRIEF_COMPLETO_AI_ESTERNA.md",
+      "bytes": 27638,
+      "sha256": "04ffe9748e9cf8eaa926f600e14302ca24a475e368b6c2502bb8c2cef28c6b1b"
+    },
+    {
+      "file": "LEGGIMI.md",
+      "bytes": 2353,
+      "sha256": "4ca40383739dd430dd06f5c94e9807bfaa15d32610d1b919285a40841495731d"
+    },
+    {
+      "file": "dati/CONTRATTI_PROPOSTI_PILOTA.json",
+      "bytes": 47368,
+      "sha256": "94614739e74986b4513023b3f2a6ff7ff388bf8eb979b3e94c4e9a0f5edcccc6"
+    },
+    {
+      "file": "dati/DISTINTA_PILOTA.json",
+      "bytes": 32009,
+      "sha256": "aab1ec26a01cc738da3936210fae964a144d90b878b2633a860ff2782259c2cc"
+    },
+    {
+      "file": "dati/MAPPA_SORGENTI.json",
+      "bytes": 21358,
+      "sha256": "e0e5b7d2e89cd000cb70f9feccc6ff902e2d6bf8c6ae35a67cb39561879a3e71"
+    },
+    {
+      "file": "dati/METADATI_DA_COMPILARE.json",
+      "bytes": 13285,
+      "sha256": "b8f5d888b3823ce8a2b740f58b3bf0d62f809375e7d8457e01d7f866d6f158dd"
+    },
+    {
+      "file": "prompt/01_ART-MOUNTAIN-MASSIF-01.txt",
+      "bytes": 6076,
+      "sha256": "40a78d7e529273afe6b087f80cc581dbeadeef86745fea73989ac9bcbd647c77"
+    },
+    {
+      "file": "prompt/02_ART-MOUNTAIN-SADDLE-01.txt",
+      "bytes": 5980,
+      "sha256": "f5676bfc82d21117654d90bdd6db64943129f96e7e5dbde7b5c134ba73c2ab38"
+    },
+    {
+      "file": "prompt/03_ART-SOIL-PLAIN-01.txt",
+      "bytes": 5593,
+      "sha256": "33a35189b7a3581c99ac7643885c8f032622569b0cde9c99926d9542cbff315b"
+    },
+    {
+      "file": "prompt/04_ART-SOIL-EARTH-01.txt",
+      "bytes": 5497,
+      "sha256": "39852b3437c2296b17a3d249f996624a939e5160ba4ae2d1b8f0deecd881641e"
+    },
+    {
+      "file": "prompt/05_ART-SOIL-DRY-01.txt",
+      "bytes": 5569,
+      "sha256": "290276b0bafd3f6a211348777f2859450a6a96510699b390a0f12ece4e6bc49a"
+    },
+    {
+      "file": "prompt/06_ART-SOIL-MINERAL-01.txt",
+      "bytes": 5515,
+      "sha256": "1f988e9c71fdb29b30ebebca5c70e82bfca505744788ea7d5ca71420ab685e11"
+    },
+    {
+      "file": "prompt/07_ART-SOIL-FOREST-01.txt",
+      "bytes": 5581,
+      "sha256": "70b025a7bceca457e86b68d8bb7a3138e413c98b9c12f585c76d0bc89cd06803"
+    },
+    {
+      "file": "prompt/08_ART-HILL-GRASS-A.txt",
+      "bytes": 5815,
+      "sha256": "e2113755e84f42df70717922ecab3a2a5fa24e9205b6bb9867edc943a07ff53c"
+    },
+    {
+      "file": "prompt/09_ART-HILL-GRASS-B.txt",
+      "bytes": 5776,
+      "sha256": "61871a8d0e8a9e6e2e84593b9444900798d537fc29c089a63589819daa7cf4f0"
+    },
+    {
+      "file": "prompt/10_ART-HILL-DRY-A.txt",
+      "bytes": 5940,
+      "sha256": "6a46c79216222fad78308e2faaa1152b3631f5a55ba7d528c168e7a91db4f01e"
+    },
+    {
+      "file": "prompt/11_ART-HILL-DRY-B.txt",
+      "bytes": 5818,
+      "sha256": "6d9eeae01df5a67bdd55f1e4c266d43811cdaf9fdf806747a49a830cfbbed25a"
+    },
+    {
+      "file": "prompt/12_ART-BASE-MOUNTAIN-TEMPERATE-01.txt",
+      "bytes": 5848,
+      "sha256": "94134412a3b9fdd124508b09e61c0674b4df354198a27cefc44c7ba9651ca3ab"
+    },
+    {
+      "file": "prompt/13_ART-BASE-MOUNTAIN-DRY-01.txt",
+      "bytes": 5804,
+      "sha256": "daa32aaa465d9cb26efc9a3a0e6934ec9ec3000c89bf0c4e3cb61958c109ef5e"
+    },
+    {
+      "file": "prompt/14_ART-FOREST-EDGE-OPEN-01.txt",
+      "bytes": 5976,
+      "sha256": "62fbc5eec6d3b5a2af8ecdd019a939652fdc1809f110ba908fd5eac0c25133d9"
+    },
+    {
+      "file": "prompt/15_ART-FOREST-EDGE-INLET-01.txt",
+      "bytes": 5984,
+      "sha256": "6530b4290e05490b242a40a5d1924e85d0fe40e474aff822a40b0ad56f389eec"
+    },
+    {
+      "file": "reference/DRAKELYA_VISUAL_TARGET.jpg",
+      "bytes": 241438,
+      "sha256": "d31e090957062c29c4208bf1ac3d0a01c85faab962f2cab4da29dffb9cf449dd"
+    },
+    {
+      "file": "reference/catalogue-relief-01.webp",
+      "bytes": 1132328,
+      "sha256": "d50a2c4dc18d6b2be2b6887d7eaec7d427a8eb9f37222dba69a332c159c701be"
+    },
+    {
+      "file": "reference/catalogue-relief-02.webp",
+      "bytes": 1035826,
+      "sha256": "159a6363ca5446bb6c7e4971df10f4b68153ed14a31fccf46cf4caf5deaa13d3"
+    },
+    {
+      "file": "reference/catalogue-relief-03.webp",
+      "bytes": 756858,
+      "sha256": "c25555ae3ec2e6c4ae700e6750fda81c06f0914799ec8e811e8c6a4b78fe29e2"
+    },
+    {
+      "file": "reference/catalogue-textures-01.webp",
+      "bytes": 473432,
+      "sha256": "9b6ed42f27d03f6d7020ecb8c4944080248bff148e14f3985035e19a28ab8df3"
+    },
+    {
+      "file": "reference/catalogue-vegetation-01.webp",
+      "bytes": 925650,
+      "sha256": "aa0ac984dafef1203ea881a784e4bc346c857b90268164d0cf01637ef6fa8031"
+    },
+    {
+      "file": "reference/catalogue-vegetation-02.webp",
+      "bytes": 773316,
+      "sha256": "0d16b88355a2e5d7b49443ad8def3c891e4d26bf8059c1681a32e267666a45ef"
+    },
+    {
+      "file": "reference/catalogue-vegetation-03.webp",
+      "bytes": 1169974,
+      "sha256": "b6bdd054c88c4eda4ecc4a0ccf4535af6b0d0d5b56099785dbf599eea6a0fdf5"
+    },
+    {
+      "file": "reference/catalogue-vegetation-04.webp",
+      "bytes": 1095610,
+      "sha256": "ef8c76d893522a3bf337d942e12ba5dd16e1b3ecf2538b6e2eaade013ebe495d"
+    },
+    {
+      "file": "reference/catalogue-vegetation-05.webp",
+      "bytes": 641868,
+      "sha256": "4dc1de9b3fb1f092b86d2084eaf555540dcacf69b28d5e43550bd4be171166f0"
+    },
+    {
+      "file": "reference/source-library-02.webp",
+      "bytes": 1855574,
+      "sha256": "3564c0796cab94c9e91915d332e202f448fbe3ee2ec434746d0802558aa71bb4"
+    },
+    {
+      "file": "reference/source-library-06.webp",
+      "bytes": 1085574,
+      "sha256": "9801158d928681669e5262f08a635e752d8712ad6a7285b876191393515794f8"
+    },
+    {
+      "file": "reference/source-library-07.webp",
+      "bytes": 442834,
+      "sha256": "fcadf810fd341650b8d4ee13b9d75db510755fd9592bd7da0a82c38041e42660"
+    },
+    {
+      "file": "reference/source-library-11.webp",
+      "bytes": 1110906,
+      "sha256": "240fd0a972b41af322367ce197dde37e3163b8777f7fc86b42393faed1ce23fe"
+    },
+    {
+      "file": "reference/target-vs-current.webp",
+      "bytes": 1048244,
+      "sha256": "8456f7bb15e3d79fdf6fd15878e77577843edd80439ae3002ac909643af6f581"
+    },
+    {
+      "file": "sorgenti/art-source/illustrated-v2/terrain-atlas.png",
+      "bytes": 2752016,
+      "sha256": "2627094170e85539e67eb81fd5c14ed97a48c17b1729ea67aff90f80793d41be"
+    },
+    {
+      "file": "sorgenti/art-source/illustrated-v2/vegetation-atlas.png",
+      "bytes": 3151268,
+      "sha256": "086b8592d0a78ef31b0113fcfbb4d28a0d4352f8d0df545d019d1a698dc91c71"
+    },
+    {
+      "file": "sorgenti/art-source/manual-mountain-kit-v4/README.md",
+      "bytes": 3561,
+      "sha256": "475e5062898e6738862d2af2d06d4e6a1564c1b38f36075523df136f99fe627c"
+    },
+    {
+      "file": "sorgenti/art-source/manual-mountain-kit-v4/catalog.json",
+      "bytes": 1183,
+      "sha256": "2b159b10a672ce946029c25a8b8cc117323368e7aebab61d2500f2ccdd7d38a4"
+    },
+    {
+      "file": "sorgenti/art-source/manual-mountain-kit-v4/massif-source.png",
+      "bytes": 1822270,
+      "sha256": "338e221a8c799e8702963f1b4b77fab28e9f05e50d92c4ad93ae6c830905ac33"
+    },
+    {
+      "file": "sorgenti/art-source/manual-mountain-kit-v4/massif.webp",
+      "bytes": 161260,
+      "sha256": "df5872e3daa54dcbfd78705e93ca13771499a415e886722920e0eafa56508959"
+    },
+    {
+      "file": "sorgenti/art-source/manual-mountain-kit-v4/saddle-source.png",
+      "bytes": 1177182,
+      "sha256": "0a5ef38e6da55ac5266a584ab5da2b4ca4f4e64c3a6cd3d786f4d763d9fdb7c0"
+    },
+    {
+      "file": "sorgenti/art-source/manual-mountain-kit-v4/saddle.webp",
+      "bytes": 77470,
+      "sha256": "9bacfa892e63140f701f38bc83c63b75e7db54b42d90193ccb82c9a486e77c29"
+    },
+    {
+      "file": "sorgenti/art-source/regional-landmarks-v1/foothills.png",
+      "bytes": 2099834,
+      "sha256": "47e20c222c407b703c37e6b39315110114ec258904b5d7439bcfc78ede55123d"
+    },
+    {
+      "file": "sorgenti/public/map-assets/illustrated-packed/vegetation-0-e6906ab24514.webp",
+      "bytes": 1991542,
+      "sha256": "e6906ab24514e8ef2b7b7d319cfcf4922f6cd854046efd35b44792a0faa6eb57"
+    },
+    {
+      "file": "sorgenti/public/map-assets/relief-reviewed/relief-59641af21c1a.webp",
+      "bytes": 2758608,
+      "sha256": "59641af21c1a0f92a37cd448761f354c2764831c90c63333dab2d10592bdaae3"
+    },
+    {
+      "file": "sorgenti/public/map-assets/world-v01/w-rel-001-1c9e9ceeb025.png",
+      "bytes": 2305880,
+      "sha256": "1c9e9ceeb02563d2b441ddd3f57937783adc3b55bbb7e4208fd36cabec0bb678"
+    },
+    {
+      "file": "sorgenti/public/map-assets/world-v01/w-rel-001-f02-e446aa8a1208.png",
+      "bytes": 2170325,
+      "sha256": "e446aa8a12081bc986d7b1a52c6ad346a2e10dd0645e2b177bac287ee08310d2"
+    },
+    {
+      "file": "sorgenti/public/map-assets/world-v01/w-rel-001-f03-3969406456f0.png",
+      "bytes": 2587193,
+      "sha256": "3969406456f00c443271c15892a60ecc9e1e734aa45368ce3500f74805db2360"
+    },
+    {
+      "file": "sorgenti/public/map-assets/world-v01/w-rel-003-66d3312a52b0.png",
+      "bytes": 1950385,
+      "sha256": "66d3312a52b0d10f317746e28d001b3d181557faf329d9bfec5fe06f1e5dd6b2"
+    },
+    {
+      "file": "sorgenti/public/map-assets/world-v01/w-rel-003-f02-9474b8e8f6c3.png",
+      "bytes": 2462239,
+      "sha256": "9474b8e8f6c3bea80cffc6431bfe0aa1cbf81b0636e9dd5c0768e59a98122248"
+    },
+    {
+      "file": "sorgenti/public/map-assets/world-v01/w-rel-003-f03-3e363e3d5725.png",
+      "bytes": 1906489,
+      "sha256": "3e363e3d5725c272d5dfcdd35c9dbee495b193152db4c7777c5991385cb534ec"
+    },
+    {
+      "file": "sorgenti/public/map-assets/world-v01/w-tex-001-87e915fb97c5.png",
+      "bytes": 2580591,
+      "sha256": "87e915fb97c5d7169c18e69a01a7b28533190d0a00806fdb1ce7da99e9027377"
+    },
+    {
+      "file": "sorgenti/public/map-assets/world-v01/w-tex-002-b176722bed3d.png",
+      "bytes": 2521253,
+      "sha256": "b176722bed3db2c9300a21db04dc0c786dded9a9c78634218f8d38e680fbe30e"
+    },
+    {
+      "file": "sorgenti/public/map-assets/world-v01/w-tex-003-8603b96eb7f5.png",
+      "bytes": 3120734,
+      "sha256": "8603b96eb7f5b9be6df6a5d660b3846ad96e96bedbb610e949457b42fced411f"
+    },
+    {
+      "file": "sorgenti/public/map-assets/world-v01/w-tex-004-734e1e8c9ba5.png",
+      "bytes": 2690980,
+      "sha256": "734e1e8c9ba507d47ac5174fbc913699f408234acc46258ea1c808f449648d17"
+    },
+    {
+      "file": "sorgenti/public/map-assets/world-v01/w-tex-grass-soft-932cf8b3e951.png",
+      "bytes": 2466190,
+      "sha256": "932cf8b3e95109290b10a763306872d3b650e3a44f28fb2464c893ba7a27d469"
+    }
+  ]
+}

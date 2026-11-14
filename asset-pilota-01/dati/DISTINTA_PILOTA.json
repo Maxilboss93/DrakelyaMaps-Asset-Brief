@@ -1,0 +1,643 @@
+{
+  "status": "Specifiche di commessa, immagini ancora da produrre",
+  "common": {
+    "format": "PNG RGBA 8 bit sRGB; original master, no atlas assembly by the image agent",
+    "perspective": "Illustrazione 2D obliqua cartografica, impressione 25–40°; nessuna griglia isometrica o deformazione geometrica",
+    "illumination": "NE del foglio, alta da destra; contratto proposto per coerenza col painter, da confermare sui due master high/low",
+    "alphaSprite": "Alfa reale; minimo 24–32 px liberi sui lati del master, sagoma completa, nessun frammento del vicino o fondo incorporato. Piede integro con bordo interrotto; evitare doppia sfumatura col runtime.",
+    "alphaUnderpaint": "Alfa reale su tutti i lati; margine irregolare morbido 12–25% del raggio locale; nessun disco, rettangolo, ombra ellittica, acqua o edifici incorporati.",
+    "alphaTile": "Interamente opaco (A=255), seamless su X/Y; nessun bordo/margine trasparente, oggetto riconoscibile, ombra direzionale o macchia ripetuta dominante."
+  },
+  "assets": [
+    {
+      "code": "G01",
+      "name": "Pianura pittorica ocra/oliva",
+      "ids": [
+        "ART-SOIL-PLAIN-01"
+      ],
+      "priority": "Alta",
+      "status": "Adattamento",
+      "quantity": 1,
+      "pilot": true,
+      "variants": "Unica base temperata; primavera/autunno non sono nuovi disegni in questo lotto",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "PNG RGBA 8 bit sRGB; original master, no atlas assembly by the image agent",
+      "transparency": "Interamente opaco (A=255), seamless su X/Y; nessun bordo/margine trasparente, oggetto riconoscibile, ombra direzionale o macchia ripetuta dominante.",
+      "palette": [
+        "#B8A848",
+        "#C8B858",
+        "#A89848",
+        "#887838"
+      ],
+      "composition": "Pigmento basso contrasto a scale larghe/medie/minute; terreno vuoto, niente erba a ciuffi o colline dipinte.",
+      "perspective": "Superficie pittorica 2D senza volume/prospettiva aggiunta",
+      "illumination": "Nessuna ombra direzionale forte: il volume appartiene ai rilievi/chiome sovrapposti",
+      "blending": "Maschere geografiche esistenti; RGB pieno da collegare separatamente, non solo grana",
+      "compatibility": "T",
+      "dimensionReason": "512²: due volte la tile interna 256², consente riduzione controllata e prova seamless 2×2 senza master enormi. Più pixel non aggirano il decoder o il compositore.",
+      "quantityReason": "Un materiale distinto per questo ruolo; non moltiplicarlo per seed o risoluzione",
+      "references": [
+        "W-TEX-001",
+        "W-TEX-GRASS-SOFT",
+        "target: ROI 01/02"
+      ],
+      "confirmation": "Palette/contrasto e raccordo da approvare sul provino; nessuna immagine è autorizzata alla produzione definitiva.",
+      "replacementFor": null,
+      "id": "ART-SOIL-PLAIN-01"
+    },
+    {
+      "code": "G02",
+      "name": "Terra esposta calda",
+      "ids": [
+        "ART-SOIL-EARTH-01"
+      ],
+      "priority": "Alta",
+      "status": "Adattamento",
+      "quantity": 1,
+      "pilot": true,
+      "variants": "Unica base terra, indipendente dall’erba",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "PNG RGBA 8 bit sRGB; original master, no atlas assembly by the image agent",
+      "transparency": "Interamente opaco (A=255), seamless su X/Y; nessun bordo/margine trasparente, oggetto riconoscibile, ombra direzionale o macchia ripetuta dominante.",
+      "palette": [
+        "#B99A5B",
+        "#C6AA6A",
+        "#9B7D4D",
+        "#7E6B48"
+      ],
+      "composition": "Terra/polvere irregolare e pietruzze minute; niente solchi a filari o chiazza circolare.",
+      "perspective": "Superficie pittorica 2D senza volume/prospettiva aggiunta",
+      "illumination": "Nessuna ombra direzionale forte: il volume appartiene ai rilievi/chiome sovrapposti",
+      "blending": "Maschere geografiche esistenti; RGB pieno da collegare separatamente, non solo grana",
+      "compatibility": "T",
+      "dimensionReason": "512²: due volte la tile interna 256², consente riduzione controllata e prova seamless 2×2 senza master enormi. Più pixel non aggirano il decoder o il compositore.",
+      "quantityReason": "Un materiale distinto per questo ruolo; non moltiplicarlo per seed o risoluzione",
+      "references": [
+        "W-TEX-002",
+        "target: ROI 03/04"
+      ],
+      "confirmation": "Palette/contrasto e raccordo da approvare sul provino; nessuna immagine è autorizzata alla produzione definitiva.",
+      "replacementFor": null,
+      "id": "ART-SOIL-EARTH-01"
+    },
+    {
+      "code": "G03",
+      "name": "Suolo arido senza erba",
+      "ids": [
+        "ART-SOIL-DRY-01"
+      ],
+      "priority": "Alta",
+      "status": "Adattamento",
+      "quantity": 1,
+      "pilot": true,
+      "variants": "Unico arido temperato; non equivalente a sabbia desertica",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "PNG RGBA 8 bit sRGB; original master, no atlas assembly by the image agent",
+      "transparency": "Interamente opaco (A=255), seamless su X/Y; nessun bordo/margine trasparente, oggetto riconoscibile, ombra direzionale o macchia ripetuta dominante.",
+      "palette": [
+        "#C6AA6A",
+        "#B49A68",
+        "#928457",
+        "#77694A"
+      ],
+      "composition": "Ocra minerale asciutta, nessuna duna grande o grembiule verde; grana contenuta.",
+      "perspective": "Superficie pittorica 2D senza volume/prospettiva aggiunta",
+      "illumination": "Nessuna ombra direzionale forte: il volume appartiene ai rilievi/chiome sovrapposti",
+      "blending": "Maschere geografiche esistenti; RGB pieno da collegare separatamente, non solo grana",
+      "compatibility": "T",
+      "dimensionReason": "512²: due volte la tile interna 256², consente riduzione controllata e prova seamless 2×2 senza master enormi. Più pixel non aggirano il decoder o il compositore.",
+      "quantityReason": "Un materiale distinto per questo ruolo; non moltiplicarlo per seed o risoluzione",
+      "references": [
+        "W-TEX-002",
+        "W-TEX-004",
+        "art-source/illustrated-v2/terrain-atlas.png: row3 col3"
+      ],
+      "confirmation": "Palette/contrasto e raccordo da approvare sul provino; nessuna immagine è autorizzata alla produzione definitiva.",
+      "replacementFor": null,
+      "id": "ART-SOIL-DRY-01"
+    },
+    {
+      "code": "G04",
+      "name": "Suolo minerale/pedemontano",
+      "ids": [
+        "ART-SOIL-MINERAL-01"
+      ],
+      "priority": "Alta",
+      "status": "Adattamento",
+      "quantity": 1,
+      "pilot": true,
+      "variants": "Unico substrato minerale comune a molti rilievi",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "PNG RGBA 8 bit sRGB; original master, no atlas assembly by the image agent",
+      "transparency": "Interamente opaco (A=255), seamless su X/Y; nessun bordo/margine trasparente, oggetto riconoscibile, ombra direzionale o macchia ripetuta dominante.",
+      "palette": [
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "composition": "Pietra frammentata e terra grigio-calda, senza un ammasso di massi centrato.",
+      "perspective": "Superficie pittorica 2D senza volume/prospettiva aggiunta",
+      "illumination": "Nessuna ombra direzionale forte: il volume appartiene ai rilievi/chiome sovrapposti",
+      "blending": "Maschere geografiche esistenti; RGB pieno da collegare separatamente, non solo grana",
+      "compatibility": "T",
+      "dimensionReason": "512²: due volte la tile interna 256², consente riduzione controllata e prova seamless 2×2 senza master enormi. Più pixel non aggirano il decoder o il compositore.",
+      "quantityReason": "Un materiale distinto per questo ruolo; non moltiplicarlo per seed o risoluzione",
+      "references": [
+        "W-TEX-003",
+        "P2D-SCREE-A/B/C",
+        "target: ROI 06"
+      ],
+      "confirmation": "Palette/contrasto e raccordo da approvare sul provino; nessuna immagine è autorizzata alla produzione definitiva.",
+      "replacementFor": null,
+      "id": "ART-SOIL-MINERAL-01"
+    },
+    {
+      "code": "G05",
+      "name": "Lettiera/suolo boschivo illustrato",
+      "ids": [
+        "ART-SOIL-FOREST-01"
+      ],
+      "priority": "Alta",
+      "status": "Nuovo",
+      "quantity": 1,
+      "pilot": true,
+      "variants": "Unico sottofondo boschivo, non due copie caldo/freddo",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "PNG RGBA 8 bit sRGB; original master, no atlas assembly by the image agent",
+      "transparency": "Interamente opaco (A=255), seamless su X/Y; nessun bordo/margine trasparente, oggetto riconoscibile, ombra direzionale o macchia ripetuta dominante.",
+      "palette": [
+        "#777347",
+        "#8C8350",
+        "#535A35",
+        "#A0925F"
+      ],
+      "composition": "Lettiera, terra ocra e piccole chiazze muschio; nessun albero, radice gigante o cerchio scuro.",
+      "perspective": "Superficie pittorica 2D senza volume/prospettiva aggiunta",
+      "illumination": "Nessuna ombra direzionale forte: il volume appartiene ai rilievi/chiome sovrapposti",
+      "blending": "Maschere geografiche esistenti; RGB pieno da collegare separatamente, non solo grana",
+      "compatibility": "T",
+      "dimensionReason": "512²: due volte la tile interna 256², consente riduzione controllata e prova seamless 2×2 senza master enormi. Più pixel non aggirano il decoder o il compositore.",
+      "quantityReason": "Un materiale distinto per questo ruolo; non moltiplicarlo per seed o risoluzione",
+      "references": [
+        "target: ROI 08",
+        "P2D-FOREST-EDGE (solo palette)",
+        "materiale procedurale forest: non è un file sorgente"
+      ],
+      "confirmation": "Palette/contrasto e raccordo da approvare sul provino; nessuna immagine è autorizzata alla produzione definitiva.",
+      "replacementFor": null,
+      "id": "ART-SOIL-FOREST-01"
+    },
+    {
+      "code": "H01",
+      "name": "Dorsali collinari temperate",
+      "ids": [
+        "ART-HILL-GRASS-A"
+      ],
+      "priority": "Alta",
+      "status": "Adattamento",
+      "quantity": 1,
+      "pilot": true,
+      "variants": "Due sagome: dorsale lunga e gruppo con avvallamento; nessun mirror",
+      "dimensions": [
+        1024,
+        448
+      ],
+      "format": "PNG RGBA 8 bit sRGB; original master, no atlas assembly by the image agent",
+      "transparency": "Alfa reale; minimo 24–32 px liberi sui lati del master, sagoma completa, nessun frammento del vicino o fondo incorporato. Piede integro con bordo interrotto; evitare doppia sfumatura col runtime.",
+      "palette": [
+        "#B8A848",
+        "#C8B858",
+        "#A89848",
+        "#887838",
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "composition": "A: dorsale lunga con 2–3 pieghe diseguali; B: gruppo più largo con avvallamento aperto. Cresta bassa, poche rocce, erba rada senza base chiusa.",
+      "perspective": "Illustrazione 2D obliqua cartografica, impressione 25–40°; nessuna griglia isometrica o deformazione geometrica",
+      "illumination": "NE del foglio, alta da destra; contratto proposto per coerenza col painter, da confermare sui due master high/low",
+      "blending": "Piede e alfa conformi al crop; alternanza di sagome, substrato separato",
+      "compatibility": "E",
+      "dimensionReason": "1024×448: due moduli panoramici con corpo dipinto basso (H/W circa .25–.35) e margini. Crop attuali 496×164–236, fino a ~189px a export1280 e ~604px a export4096; master più largo utile per ridisegno, non upscale del crop 256px delle tavole v2.",
+      "quantityReason": "Due sagome: dorsale lunga e gruppo con avvallamento; nessun mirror",
+      "references": [
+        "W-REL-003/F02/F03",
+        "art-source/regional-landmarks-v1/foothills.png",
+        "target: ROI 05"
+      ],
+      "confirmation": "Palette/contrasto e raccordo da approvare sul provino; nessuna immagine è autorizzata alla produzione definitiva.",
+      "replacementFor": null,
+      "id": "ART-HILL-GRASS-A"
+    },
+    {
+      "code": "H01",
+      "name": "Dorsali collinari temperate",
+      "ids": [
+        "ART-HILL-GRASS-B"
+      ],
+      "priority": "Alta",
+      "status": "Adattamento",
+      "quantity": 1,
+      "pilot": true,
+      "variants": "Due sagome: dorsale lunga e gruppo con avvallamento; nessun mirror",
+      "dimensions": [
+        1024,
+        448
+      ],
+      "format": "PNG RGBA 8 bit sRGB; original master, no atlas assembly by the image agent",
+      "transparency": "Alfa reale; minimo 24–32 px liberi sui lati del master, sagoma completa, nessun frammento del vicino o fondo incorporato. Piede integro con bordo interrotto; evitare doppia sfumatura col runtime.",
+      "palette": [
+        "#B8A848",
+        "#C8B858",
+        "#A89848",
+        "#887838",
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "composition": "A: dorsale lunga con 2–3 pieghe diseguali; B: gruppo più largo con avvallamento aperto. Cresta bassa, poche rocce, erba rada senza base chiusa.",
+      "perspective": "Illustrazione 2D obliqua cartografica, impressione 25–40°; nessuna griglia isometrica o deformazione geometrica",
+      "illumination": "NE del foglio, alta da destra; contratto proposto per coerenza col painter, da confermare sui due master high/low",
+      "blending": "Piede e alfa conformi al crop; alternanza di sagome, substrato separato",
+      "compatibility": "E",
+      "dimensionReason": "1024×448: due moduli panoramici con corpo dipinto basso (H/W circa .25–.35) e margini. Crop attuali 496×164–236, fino a ~189px a export1280 e ~604px a export4096; master più largo utile per ridisegno, non upscale del crop 256px delle tavole v2.",
+      "quantityReason": "Due sagome: dorsale lunga e gruppo con avvallamento; nessun mirror",
+      "references": [
+        "W-REL-003/F02/F03",
+        "art-source/regional-landmarks-v1/foothills.png",
+        "target: ROI 05"
+      ],
+      "confirmation": "Palette/contrasto e raccordo da approvare sul provino; nessuna immagine è autorizzata alla produzione definitiva.",
+      "replacementFor": null,
+      "id": "ART-HILL-GRASS-B"
+    },
+    {
+      "code": "H02",
+      "name": "Dorsali collinari aride",
+      "ids": [
+        "ART-HILL-DRY-A"
+      ],
+      "priority": "Alta",
+      "status": "Adattamento",
+      "quantity": 1,
+      "pilot": true,
+      "variants": "Due profili corrispondenti a H01, in substrato arido; quattro file totali H01+H02, non quattro nuove sagome",
+      "dimensions": [
+        1024,
+        448
+      ],
+      "format": "PNG RGBA 8 bit sRGB; original master, no atlas assembly by the image agent",
+      "transparency": "Alfa reale; minimo 24–32 px liberi sui lati del master, sagoma completa, nessun frammento del vicino o fondo incorporato. Piede integro con bordo interrotto; evitare doppia sfumatura col runtime.",
+      "palette": [
+        "#C6AA6A",
+        "#B49A68",
+        "#928457",
+        "#77694A",
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "composition": "Le stesse due famiglie di profilo di H01 con roccia/terra nuda e arbusti minimi; ridisegno coerente, non filtro seppia o erba rimasta sul piede.",
+      "perspective": "Illustrazione 2D obliqua cartografica, impressione 25–40°; nessuna griglia isometrica o deformazione geometrica",
+      "illumination": "NE del foglio, alta da destra; contratto proposto per coerenza col painter, da confermare sui due master high/low",
+      "blending": "Piede e alfa conformi al crop; alternanza di sagome, substrato separato",
+      "compatibility": "E",
+      "dimensionReason": "1024×448: due moduli panoramici con corpo dipinto basso (H/W circa .25–.35) e margini. Crop attuali 496×164–236, fino a ~189px a export1280 e ~604px a export4096; master più largo utile per ridisegno, non upscale del crop 256px delle tavole v2.",
+      "quantityReason": "Due profili corrispondenti a H01, in substrato arido; quattro file totali H01+H02, non quattro nuove sagome",
+      "references": [
+        "art-source/illustrated-v2/terrain-atlas.png: row3 col3, row4 col3",
+        "art-source/regional-landmarks-v1/foothills.png",
+        "H01"
+      ],
+      "confirmation": "Palette/contrasto e raccordo da approvare sul provino; nessuna immagine è autorizzata alla produzione definitiva.",
+      "replacementFor": null,
+      "id": "ART-HILL-DRY-A"
+    },
+    {
+      "code": "H02",
+      "name": "Dorsali collinari aride",
+      "ids": [
+        "ART-HILL-DRY-B"
+      ],
+      "priority": "Alta",
+      "status": "Adattamento",
+      "quantity": 1,
+      "pilot": true,
+      "variants": "Due profili corrispondenti a H01, in substrato arido; quattro file totali H01+H02, non quattro nuove sagome",
+      "dimensions": [
+        1024,
+        448
+      ],
+      "format": "PNG RGBA 8 bit sRGB; original master, no atlas assembly by the image agent",
+      "transparency": "Alfa reale; minimo 24–32 px liberi sui lati del master, sagoma completa, nessun frammento del vicino o fondo incorporato. Piede integro con bordo interrotto; evitare doppia sfumatura col runtime.",
+      "palette": [
+        "#C6AA6A",
+        "#B49A68",
+        "#928457",
+        "#77694A",
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "composition": "Le stesse due famiglie di profilo di H01 con roccia/terra nuda e arbusti minimi; ridisegno coerente, non filtro seppia o erba rimasta sul piede.",
+      "perspective": "Illustrazione 2D obliqua cartografica, impressione 25–40°; nessuna griglia isometrica o deformazione geometrica",
+      "illumination": "NE del foglio, alta da destra; contratto proposto per coerenza col painter, da confermare sui due master high/low",
+      "blending": "Piede e alfa conformi al crop; alternanza di sagome, substrato separato",
+      "compatibility": "E",
+      "dimensionReason": "1024×448: due moduli panoramici con corpo dipinto basso (H/W circa .25–.35) e margini. Crop attuali 496×164–236, fino a ~189px a export1280 e ~604px a export4096; master più largo utile per ridisegno, non upscale del crop 256px delle tavole v2.",
+      "quantityReason": "Due profili corrispondenti a H01, in substrato arido; quattro file totali H01+H02, non quattro nuove sagome",
+      "references": [
+        "art-source/illustrated-v2/terrain-atlas.png: row3 col3, row4 col3",
+        "art-source/regional-landmarks-v1/foothills.png",
+        "H01"
+      ],
+      "confirmation": "Palette/contrasto e raccordo da approvare sul provino; nessuna immagine è autorizzata alla produzione definitiva.",
+      "replacementFor": null,
+      "id": "ART-HILL-DRY-B"
+    },
+    {
+      "code": "B01",
+      "name": "Base condivisa di un gruppo montuoso",
+      "ids": [
+        "ART-BASE-MOUNTAIN-TEMPERATE-01"
+      ],
+      "priority": "Alta",
+      "status": "Nuovo",
+      "quantity": 1,
+      "pilot": true,
+      "variants": "Due substrati (temperato/arido) della stessa funzione; non due ombre",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "format": "PNG RGBA 8 bit sRGB; original master, no atlas assembly by the image agent",
+      "transparency": "Alfa reale su tutti i lati; margine irregolare morbido 12–25% del raggio locale; nessun disco, rettangolo, ombra ellittica, acqua o edifici incorporati.",
+      "palette": [
+        "#B99A5B",
+        "#C6AA6A",
+        "#9B7D4D",
+        "#7E6B48",
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "composition": "Lavaggio largo e basso, detriti e vene di terra asimmetriche, vuoti laterali e bordo spezzato. Zero cime/alberi/corsi d’acqua; deve servire 2–4 figure, non ripetere un cerchio sotto ciascuna.",
+      "perspective": "Superficie pittorica 2D senza volume/prospettiva aggiunta",
+      "illumination": "Nessuna ombra direzionale forte: il volume appartiene ai rilievi/chiome sovrapposti",
+      "blending": "Sotto figure e vegetazione, contorno distribuito sul substrato locale; non una base per ogni cima",
+      "compatibility": "R",
+      "dimensionReason": "Rapporto 4:1 per fascia di contatto, non volume; 1024 copre un piccolo gruppo senza un panorama rigido 4K.",
+      "quantityReason": "Due substrati (temperato/arido) della stessa funzione; non due ombre",
+      "references": [
+        "target: ROI 03/06/07",
+        "W-REL-001/F02/F03",
+        "P2D-SCREE-A/B/C"
+      ],
+      "confirmation": "Palette/contrasto e raccordo da approvare sul provino; nessuna immagine è autorizzata alla produzione definitiva.",
+      "replacementFor": null,
+      "id": "ART-BASE-MOUNTAIN-TEMPERATE-01"
+    },
+    {
+      "code": "B01",
+      "name": "Base condivisa di un gruppo montuoso",
+      "ids": [
+        "ART-BASE-MOUNTAIN-DRY-01"
+      ],
+      "priority": "Alta",
+      "status": "Nuovo",
+      "quantity": 1,
+      "pilot": true,
+      "variants": "Due substrati (temperato/arido) della stessa funzione; non due ombre",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "format": "PNG RGBA 8 bit sRGB; original master, no atlas assembly by the image agent",
+      "transparency": "Alfa reale su tutti i lati; margine irregolare morbido 12–25% del raggio locale; nessun disco, rettangolo, ombra ellittica, acqua o edifici incorporati.",
+      "palette": [
+        "#B99A5B",
+        "#C6AA6A",
+        "#9B7D4D",
+        "#7E6B48",
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "composition": "Lavaggio largo e basso, detriti e vene di terra asimmetriche, vuoti laterali e bordo spezzato. Zero cime/alberi/corsi d’acqua; deve servire 2–4 figure, non ripetere un cerchio sotto ciascuna.",
+      "perspective": "Superficie pittorica 2D senza volume/prospettiva aggiunta",
+      "illumination": "Nessuna ombra direzionale forte: il volume appartiene ai rilievi/chiome sovrapposti",
+      "blending": "Sotto figure e vegetazione, contorno distribuito sul substrato locale; non una base per ogni cima",
+      "compatibility": "R",
+      "dimensionReason": "Rapporto 4:1 per fascia di contatto, non volume; 1024 copre un piccolo gruppo senza un panorama rigido 4K.",
+      "quantityReason": "Due substrati (temperato/arido) della stessa funzione; non due ombre",
+      "references": [
+        "target: ROI 03/06/07",
+        "W-REL-001/F02/F03",
+        "P2D-SCREE-A/B/C"
+      ],
+      "confirmation": "Palette/contrasto e raccordo da approvare sul provino; nessuna immagine è autorizzata alla produzione definitiva.",
+      "replacementFor": null,
+      "id": "ART-BASE-MOUNTAIN-DRY-01"
+    },
+    {
+      "code": "F01",
+      "name": "Margine forestale e rientranza",
+      "ids": [
+        "ART-FOREST-EDGE-OPEN-01"
+      ],
+      "priority": "Alta",
+      "status": "Adattamento",
+      "quantity": 1,
+      "pilot": true,
+      "variants": "Due bordi complementari: aperto e concavo; il nucleo usa alberi/gruppi esistenti",
+      "dimensions": [
+        768,
+        384
+      ],
+      "format": "PNG RGBA 8 bit sRGB; original master, no atlas assembly by the image agent",
+      "transparency": "Alfa reale; minimo 24–32 px liberi sui lati del master, sagoma completa, nessun frammento del vicino o fondo incorporato. Piede integro con bordo interrotto; evitare doppia sfumatura col runtime.",
+      "palette": [
+        "#485828",
+        "#384828",
+        "#283818",
+        "#758041",
+        "#777347",
+        "#8C8350",
+        "#535A35",
+        "#A0925F"
+      ],
+      "composition": "OPEN: 3–7 chiome di altezze diverse con vuoti crescenti verso il bordo; INLET: due piccoli lati diseguali e centro trasparente aperto per radura. Tronchi visibili, niente muro verde, niente terreno incorporato esteso.",
+      "perspective": "Illustrazione 2D obliqua cartografica, impressione 25–40°; nessuna griglia isometrica o deformazione geometrica",
+      "illumination": "NE del foglio, alta da destra; contratto proposto per coerenza col painter, da confermare sui due master high/low",
+      "blending": "Piede e alfa conformi al crop; alternanza di sagome, substrato separato",
+      "compatibility": "E",
+      "dimensionReason": "Rapporto 2:1 per margine, non albero singolo. Master768 consente chiome distinte e riduzione a512; non ingrandire ciecamente gli attuali crop 150–328px.",
+      "quantityReason": "Due bordi complementari: aperto e concavo; il nucleo usa alberi/gruppi esistenti",
+      "references": [
+        "art-source/illustrated-v2/vegetation-atlas.png: row2 col5/6",
+        "P2D-FOREST-EDGE",
+        "P2D-SHRUB",
+        "target: ROI 08"
+      ],
+      "confirmation": "Palette/contrasto e raccordo da approvare sul provino; nessuna immagine è autorizzata alla produzione definitiva.",
+      "replacementFor": null,
+      "id": "ART-FOREST-EDGE-OPEN-01"
+    },
+    {
+      "code": "F01",
+      "name": "Margine forestale e rientranza",
+      "ids": [
+        "ART-FOREST-EDGE-INLET-01"
+      ],
+      "priority": "Alta",
+      "status": "Adattamento",
+      "quantity": 1,
+      "pilot": true,
+      "variants": "Due bordi complementari: aperto e concavo; il nucleo usa alberi/gruppi esistenti",
+      "dimensions": [
+        768,
+        384
+      ],
+      "format": "PNG RGBA 8 bit sRGB; original master, no atlas assembly by the image agent",
+      "transparency": "Alfa reale; minimo 24–32 px liberi sui lati del master, sagoma completa, nessun frammento del vicino o fondo incorporato. Piede integro con bordo interrotto; evitare doppia sfumatura col runtime.",
+      "palette": [
+        "#485828",
+        "#384828",
+        "#283818",
+        "#758041",
+        "#777347",
+        "#8C8350",
+        "#535A35",
+        "#A0925F"
+      ],
+      "composition": "OPEN: 3–7 chiome di altezze diverse con vuoti crescenti verso il bordo; INLET: due piccoli lati diseguali e centro trasparente aperto per radura. Tronchi visibili, niente muro verde, niente terreno incorporato esteso.",
+      "perspective": "Illustrazione 2D obliqua cartografica, impressione 25–40°; nessuna griglia isometrica o deformazione geometrica",
+      "illumination": "NE del foglio, alta da destra; contratto proposto per coerenza col painter, da confermare sui due master high/low",
+      "blending": "Piede e alfa conformi al crop; alternanza di sagome, substrato separato",
+      "compatibility": "E",
+      "dimensionReason": "Rapporto 2:1 per margine, non albero singolo. Master768 consente chiome distinte e riduzione a512; non ingrandire ciecamente gli attuali crop 150–328px.",
+      "quantityReason": "Due bordi complementari: aperto e concavo; il nucleo usa alberi/gruppi esistenti",
+      "references": [
+        "art-source/illustrated-v2/vegetation-atlas.png: row2 col5/6",
+        "P2D-FOREST-EDGE",
+        "P2D-SHRUB",
+        "target: ROI 08"
+      ],
+      "confirmation": "Palette/contrasto e raccordo da approvare sul provino; nessuna immagine è autorizzata alla produzione definitiva.",
+      "replacementFor": null,
+      "id": "ART-FOREST-EDGE-INLET-01"
+    },
+    {
+      "code": "M01",
+      "name": "Massiccio alto e sella bassa coerenti",
+      "ids": [
+        "ART-MOUNTAIN-MASSIF-01"
+      ],
+      "priority": "Alta",
+      "status": "Adattamento",
+      "quantity": 1,
+      "pilot": true,
+      "variants": "Due ruoli high/low realmente diversi; non rigenerare il massif v3 e v4 come due file distinti",
+      "dimensions": [
+        832,
+        672
+      ],
+      "format": "PNG RGBA 8 bit sRGB; original master, no atlas assembly by the image agent",
+      "transparency": "Alfa reale; minimo 24–32 px liberi sui lati del master, sagoma completa, nessun frammento del vicino o fondo incorporato. Piede integro con bordo interrotto; evitare doppia sfumatura col runtime.",
+      "palette": [
+        "#DDD0AC",
+        "#B8AB88",
+        "#77705A",
+        "#585848",
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "composition": "Conservare la differenza high/low del kit v4; armonizzare oro/roccia, luce e piedi, rimuovere frange. Massa integra, nessun grembiule enorme o paesaggio incorporato. Non clonare cinque picchi identici.",
+      "perspective": "Illustrazione 2D obliqua cartografica, impressione 25–40°; nessuna griglia isometrica o deformazione geometrica",
+      "illumination": "NE del foglio, alta da destra; contratto proposto per coerenza col painter, da confermare sui due master high/low",
+      "blending": "Piede e alfa conformi al crop; alternanza di sagome, substrato separato",
+      "compatibility": "E",
+      "dimensionReason": "832×672 e 832×338 = corpi768×608 / 768×274 esistenti +32px liberi per lato. Preservare scala e sagoma; usare originali maggiori se il ridisegno richiede dettaglio, non stretching.",
+      "quantityReason": "Due ruoli high/low realmente diversi; non rigenerare il massif v3 e v4 come due file distinti",
+      "references": [
+        "art-source/manual-mountain-kit-v4/massif.webp",
+        "art-source/manual-mountain-kit-v4/saddle.webp",
+        "kit v4 source PNG",
+        "W-REL-001 (controllo dettaglio)",
+        "target: ROI 07"
+      ],
+      "confirmation": "Palette/contrasto e raccordo da approvare sul provino; nessuna immagine è autorizzata alla produzione definitiva.",
+      "replacementFor": "Ruolo dei kit v1/v2 giudicati C; nessuna sostituzione automatica di ID persistiti",
+      "id": "ART-MOUNTAIN-MASSIF-01"
+    },
+    {
+      "code": "M01",
+      "name": "Massiccio alto e sella bassa coerenti",
+      "ids": [
+        "ART-MOUNTAIN-SADDLE-01"
+      ],
+      "priority": "Alta",
+      "status": "Adattamento",
+      "quantity": 1,
+      "pilot": true,
+      "variants": "Due ruoli high/low realmente diversi; non rigenerare il massif v3 e v4 come due file distinti",
+      "dimensions": [
+        832,
+        338
+      ],
+      "format": "PNG RGBA 8 bit sRGB; original master, no atlas assembly by the image agent",
+      "transparency": "Alfa reale; minimo 24–32 px liberi sui lati del master, sagoma completa, nessun frammento del vicino o fondo incorporato. Piede integro con bordo interrotto; evitare doppia sfumatura col runtime.",
+      "palette": [
+        "#DDD0AC",
+        "#B8AB88",
+        "#77705A",
+        "#585848",
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "composition": "Conservare la differenza high/low del kit v4; armonizzare oro/roccia, luce e piedi, rimuovere frange. Massa integra, nessun grembiule enorme o paesaggio incorporato. Non clonare cinque picchi identici.",
+      "perspective": "Illustrazione 2D obliqua cartografica, impressione 25–40°; nessuna griglia isometrica o deformazione geometrica",
+      "illumination": "NE del foglio, alta da destra; contratto proposto per coerenza col painter, da confermare sui due master high/low",
+      "blending": "Piede e alfa conformi al crop; alternanza di sagome, substrato separato",
+      "compatibility": "E",
+      "dimensionReason": "832×672 e 832×338 = corpi768×608 / 768×274 esistenti +32px liberi per lato. Preservare scala e sagoma; usare originali maggiori se il ridisegno richiede dettaglio, non stretching.",
+      "quantityReason": "Due ruoli high/low realmente diversi; non rigenerare il massif v3 e v4 come due file distinti",
+      "references": [
+        "art-source/manual-mountain-kit-v4/massif.webp",
+        "art-source/manual-mountain-kit-v4/saddle.webp",
+        "kit v4 source PNG",
+        "W-REL-001 (controllo dettaglio)",
+        "target: ROI 07"
+      ],
+      "confirmation": "Palette/contrasto e raccordo da approvare sul provino; nessuna immagine è autorizzata alla produzione definitiva.",
+      "replacementFor": "Ruolo dei kit v1/v2 giudicati C; nessuna sostituzione automatica di ID persistiti",
+      "id": "ART-MOUNTAIN-SADDLE-01"
+    }
+  ]
+}

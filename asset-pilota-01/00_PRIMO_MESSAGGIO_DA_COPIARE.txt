@@ -1,0 +1,5 @@
+Leggi il pacchetto Drakelya Maps allegato. Le immagini sono componenti modulari per una mappa fantasy generativa 2D, con qualità pittorica guidata da reference/DRAKELYA_VISUAL_TARGET.jpg.
+Leggi 01_DIREZIONE_COMUNE.md e le prime due schede in prompt/.
+Esegui soltanto ART-MOUNTAIN-MASSIF-01.png (832×672) e ART-MOUNTAIN-SADDLE-01.png (832×338), adattando le sorgenti kit v4 incluse. Segui la luce NE proposta e conserva sagome, dettaglio e margini trasparenti. Non generare una mappa completa.
+Presenta i due master separati e le anteprime su ocra, oliva, terra, neve e petrolio indicate in 03_CONSEGNA_E_QA.md. Poi fermati per revisione: non produrre automaticamente gli altri13.
+Non imitare il risultato attuale nella colonna destra di target-vs-current.webp. Se il tuo strumento non supporta alfa reale, file PNG scaricabili o dimensioni finali esatte, dichiaralo prima di presentare un output come pronto.

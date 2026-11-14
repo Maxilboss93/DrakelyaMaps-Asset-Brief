@@ -1,0 +1,1363 @@
+{
+  "status": "Proposte di authoring per il lotto di 15 immagini; nessun campo integrato nel motore",
+  "contracts": [
+    {
+      "id": "ART-SOIL-PLAIN-01",
+      "role": "Pianura pittorica ocra/oliva",
+      "colorFamily": [
+        "#B8A848",
+        "#C8B858",
+        "#A89848",
+        "#887838"
+      ],
+      "biomesProposed": [
+        "temperato",
+        "terra",
+        "minerale"
+      ],
+      "dimensionsPx": [
+        512,
+        512
+      ],
+      "sourceDpi": "Nominal 72 if the exporter requires a value; pixels are authoritative and DPI is not consumed by this renderer",
+      "geometryBoundsCanvasPx": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "visualBoundsRule": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "originalAlpha": "Keep original RGBA master and report alpha histogram; no chroma key or matte",
+      "footprint": "At delivery: conservative64x64 occupancy alpha>=7 plus original alpha; not an external mask already consumed by the app",
+      "footEnvelope": "At delivery: top/bottom per populated alpha column in crop coordinates; no atlas-neighbor pixels",
+      "nonDissolvableArea": "Entire tile",
+      "transitionZone": "None; fully opaque seamless edges",
+      "anchors": {
+        "tileUvOrigin": [
+          0,
+          0
+        ]
+      },
+      "projectedWidthAt1280Proposed": null,
+      "projectedWidthAt3xProposed": null,
+      "scaleStatus": "Proposed pilot range, not a guaranteed runtime limit; current decode request is512px",
+      "orientationsDegrees": [
+        0
+      ],
+      "mirrorAllowed": false,
+      "layerOrderProposal": "terrain-material pass",
+      "neighborsAllowed": [
+        "same-level terrain materials"
+      ],
+      "exclusions": [
+        "sea/lake interior",
+        "road/river corridor",
+        "settlement footprint",
+        "manual protected content"
+      ],
+      "exclusionStatus": "Registration/placement and real clipping must enforce this; not guaranteed by the PNG itself",
+      "portsProposal": null,
+      "variants": [
+        "ART-SOIL-PLAIN-01"
+      ],
+      "deterministicSelectionProposal": "Future compositor may hash(world.seed,regionId,role,ordinal) within this family; not implemented. Record image-generator seed if exposed, otherwise null, never invent one.",
+      "currentEngineConsumesTheseNewFields": false,
+      "compatibility": "T",
+      "requiredFutureAction": "Explicit full-RGB material binding and seasonal behavior",
+      "references": [
+        "W-TEX-001",
+        "W-TEX-GRASS-SOFT",
+        "target: ROI 01/02"
+      ]
+    },
+    {
+      "id": "ART-SOIL-EARTH-01",
+      "role": "Terra esposta calda",
+      "colorFamily": [
+        "#B99A5B",
+        "#C6AA6A",
+        "#9B7D4D",
+        "#7E6B48"
+      ],
+      "biomesProposed": [
+        "temperato",
+        "terra",
+        "minerale"
+      ],
+      "dimensionsPx": [
+        512,
+        512
+      ],
+      "sourceDpi": "Nominal 72 if the exporter requires a value; pixels are authoritative and DPI is not consumed by this renderer",
+      "geometryBoundsCanvasPx": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "visualBoundsRule": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "originalAlpha": "Keep original RGBA master and report alpha histogram; no chroma key or matte",
+      "footprint": "At delivery: conservative64x64 occupancy alpha>=7 plus original alpha; not an external mask already consumed by the app",
+      "footEnvelope": "At delivery: top/bottom per populated alpha column in crop coordinates; no atlas-neighbor pixels",
+      "nonDissolvableArea": "Entire tile",
+      "transitionZone": "None; fully opaque seamless edges",
+      "anchors": {
+        "tileUvOrigin": [
+          0,
+          0
+        ]
+      },
+      "projectedWidthAt1280Proposed": null,
+      "projectedWidthAt3xProposed": null,
+      "scaleStatus": "Proposed pilot range, not a guaranteed runtime limit; current decode request is512px",
+      "orientationsDegrees": [
+        0
+      ],
+      "mirrorAllowed": false,
+      "layerOrderProposal": "terrain-material pass",
+      "neighborsAllowed": [
+        "same-level terrain materials"
+      ],
+      "exclusions": [
+        "sea/lake interior",
+        "road/river corridor",
+        "settlement footprint",
+        "manual protected content"
+      ],
+      "exclusionStatus": "Registration/placement and real clipping must enforce this; not guaranteed by the PNG itself",
+      "portsProposal": null,
+      "variants": [
+        "ART-SOIL-EARTH-01"
+      ],
+      "deterministicSelectionProposal": "Future compositor may hash(world.seed,regionId,role,ordinal) within this family; not implemented. Record image-generator seed if exposed, otherwise null, never invent one.",
+      "currentEngineConsumesTheseNewFields": false,
+      "compatibility": "T",
+      "requiredFutureAction": "Explicit full-RGB material binding and seasonal behavior",
+      "references": [
+        "W-TEX-002",
+        "target: ROI 03/04"
+      ]
+    },
+    {
+      "id": "ART-SOIL-DRY-01",
+      "role": "Suolo arido senza erba",
+      "colorFamily": [
+        "#C6AA6A",
+        "#B49A68",
+        "#928457",
+        "#77694A"
+      ],
+      "biomesProposed": [
+        "arido temperato",
+        "minerale"
+      ],
+      "dimensionsPx": [
+        512,
+        512
+      ],
+      "sourceDpi": "Nominal 72 if the exporter requires a value; pixels are authoritative and DPI is not consumed by this renderer",
+      "geometryBoundsCanvasPx": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "visualBoundsRule": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "originalAlpha": "Keep original RGBA master and report alpha histogram; no chroma key or matte",
+      "footprint": "At delivery: conservative64x64 occupancy alpha>=7 plus original alpha; not an external mask already consumed by the app",
+      "footEnvelope": "At delivery: top/bottom per populated alpha column in crop coordinates; no atlas-neighbor pixels",
+      "nonDissolvableArea": "Entire tile",
+      "transitionZone": "None; fully opaque seamless edges",
+      "anchors": {
+        "tileUvOrigin": [
+          0,
+          0
+        ]
+      },
+      "projectedWidthAt1280Proposed": null,
+      "projectedWidthAt3xProposed": null,
+      "scaleStatus": "Proposed pilot range, not a guaranteed runtime limit; current decode request is512px",
+      "orientationsDegrees": [
+        0
+      ],
+      "mirrorAllowed": false,
+      "layerOrderProposal": "terrain-material pass",
+      "neighborsAllowed": [
+        "same-level terrain materials"
+      ],
+      "exclusions": [
+        "sea/lake interior",
+        "road/river corridor",
+        "settlement footprint",
+        "manual protected content"
+      ],
+      "exclusionStatus": "Registration/placement and real clipping must enforce this; not guaranteed by the PNG itself",
+      "portsProposal": null,
+      "variants": [
+        "ART-SOIL-DRY-01"
+      ],
+      "deterministicSelectionProposal": "Future compositor may hash(world.seed,regionId,role,ordinal) within this family; not implemented. Record image-generator seed if exposed, otherwise null, never invent one.",
+      "currentEngineConsumesTheseNewFields": false,
+      "compatibility": "T",
+      "requiredFutureAction": "Explicit full-RGB material binding and seasonal behavior",
+      "references": [
+        "W-TEX-002",
+        "W-TEX-004",
+        "art-source/illustrated-v2/terrain-atlas.png: row3 col3"
+      ]
+    },
+    {
+      "id": "ART-SOIL-MINERAL-01",
+      "role": "Suolo minerale/pedemontano",
+      "colorFamily": [
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "biomesProposed": [
+        "temperato",
+        "terra",
+        "minerale"
+      ],
+      "dimensionsPx": [
+        512,
+        512
+      ],
+      "sourceDpi": "Nominal 72 if the exporter requires a value; pixels are authoritative and DPI is not consumed by this renderer",
+      "geometryBoundsCanvasPx": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "visualBoundsRule": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "originalAlpha": "Keep original RGBA master and report alpha histogram; no chroma key or matte",
+      "footprint": "At delivery: conservative64x64 occupancy alpha>=7 plus original alpha; not an external mask already consumed by the app",
+      "footEnvelope": "At delivery: top/bottom per populated alpha column in crop coordinates; no atlas-neighbor pixels",
+      "nonDissolvableArea": "Entire tile",
+      "transitionZone": "None; fully opaque seamless edges",
+      "anchors": {
+        "tileUvOrigin": [
+          0,
+          0
+        ]
+      },
+      "projectedWidthAt1280Proposed": null,
+      "projectedWidthAt3xProposed": null,
+      "scaleStatus": "Proposed pilot range, not a guaranteed runtime limit; current decode request is512px",
+      "orientationsDegrees": [
+        0
+      ],
+      "mirrorAllowed": false,
+      "layerOrderProposal": "terrain-material pass",
+      "neighborsAllowed": [
+        "same-level terrain materials"
+      ],
+      "exclusions": [
+        "sea/lake interior",
+        "road/river corridor",
+        "settlement footprint",
+        "manual protected content"
+      ],
+      "exclusionStatus": "Registration/placement and real clipping must enforce this; not guaranteed by the PNG itself",
+      "portsProposal": null,
+      "variants": [
+        "ART-SOIL-MINERAL-01"
+      ],
+      "deterministicSelectionProposal": "Future compositor may hash(world.seed,regionId,role,ordinal) within this family; not implemented. Record image-generator seed if exposed, otherwise null, never invent one.",
+      "currentEngineConsumesTheseNewFields": false,
+      "compatibility": "T",
+      "requiredFutureAction": "Explicit full-RGB material binding and seasonal behavior",
+      "references": [
+        "W-TEX-003",
+        "P2D-SCREE-A/B/C",
+        "target: ROI 06"
+      ]
+    },
+    {
+      "id": "ART-SOIL-FOREST-01",
+      "role": "Lettiera/suolo boschivo illustrato",
+      "colorFamily": [
+        "#777347",
+        "#8C8350",
+        "#535A35",
+        "#A0925F"
+      ],
+      "biomesProposed": [
+        "bosco temperato",
+        "margine forestale"
+      ],
+      "dimensionsPx": [
+        512,
+        512
+      ],
+      "sourceDpi": "Nominal 72 if the exporter requires a value; pixels are authoritative and DPI is not consumed by this renderer",
+      "geometryBoundsCanvasPx": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "visualBoundsRule": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "originalAlpha": "Keep original RGBA master and report alpha histogram; no chroma key or matte",
+      "footprint": "At delivery: conservative64x64 occupancy alpha>=7 plus original alpha; not an external mask already consumed by the app",
+      "footEnvelope": "At delivery: top/bottom per populated alpha column in crop coordinates; no atlas-neighbor pixels",
+      "nonDissolvableArea": "Entire tile",
+      "transitionZone": "None; fully opaque seamless edges",
+      "anchors": {
+        "tileUvOrigin": [
+          0,
+          0
+        ]
+      },
+      "projectedWidthAt1280Proposed": null,
+      "projectedWidthAt3xProposed": null,
+      "scaleStatus": "Proposed pilot range, not a guaranteed runtime limit; current decode request is512px",
+      "orientationsDegrees": [
+        0
+      ],
+      "mirrorAllowed": false,
+      "layerOrderProposal": "terrain-material pass",
+      "neighborsAllowed": [
+        "same-level terrain materials"
+      ],
+      "exclusions": [
+        "sea/lake interior",
+        "road/river corridor",
+        "settlement footprint",
+        "manual protected content"
+      ],
+      "exclusionStatus": "Registration/placement and real clipping must enforce this; not guaranteed by the PNG itself",
+      "portsProposal": null,
+      "variants": [
+        "ART-SOIL-FOREST-01"
+      ],
+      "deterministicSelectionProposal": "Future compositor may hash(world.seed,regionId,role,ordinal) within this family; not implemented. Record image-generator seed if exposed, otherwise null, never invent one.",
+      "currentEngineConsumesTheseNewFields": false,
+      "compatibility": "T",
+      "requiredFutureAction": "Explicit full-RGB material binding and seasonal behavior",
+      "references": [
+        "target: ROI 08",
+        "P2D-FOREST-EDGE (solo palette)",
+        "materiale procedurale forest: non è un file sorgente"
+      ]
+    },
+    {
+      "id": "ART-HILL-GRASS-A",
+      "role": "Dorsali collinari temperate",
+      "colorFamily": [
+        "#B8A848",
+        "#C8B858",
+        "#A89848",
+        "#887838",
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "biomesProposed": [
+        "temperato",
+        "terra",
+        "minerale"
+      ],
+      "dimensionsPx": [
+        1024,
+        448
+      ],
+      "sourceDpi": "Nominal 72 if the exporter requires a value; pixels are authoritative and DPI is not consumed by this renderer",
+      "geometryBoundsCanvasPx": [
+        0,
+        0,
+        1024,
+        448
+      ],
+      "visualBoundsRule": {
+        "mustFitInside": [
+          32,
+          32,
+          992,
+          416
+        ],
+        "actualBounds": "Measure alpha>7 at delivery; these are requested limits, not measurements of an existing file"
+      },
+      "originalAlpha": "Keep original RGBA master and report alpha histogram; no chroma key or matte",
+      "footprint": "At delivery: conservative64x64 occupancy alpha>=7 plus original alpha; not an external mask already consumed by the app",
+      "footEnvelope": "At delivery: top/bottom per populated alpha column in crop coordinates; no atlas-neighbor pixels",
+      "nonDissolvableArea": "Crown/summits and all meaningful silhouette above the lower foot zone; derive the foot zone per column, never a global crop of the upper mountains",
+      "transitionZone": "Short broken foot; current runtime may dissolve up to min(16% image H,24% occupied-column H). Avoid baking that dissolve a second time",
+      "anchors": {
+        "proposedFootInTightCrop": [
+          0.5,
+          1
+        ],
+        "canvasFoot": "Measure actual root after artwork/crop; do not assume padding survives packing"
+      },
+      "projectedWidthAt1280Proposed": [
+        24,
+        189
+      ],
+      "projectedWidthAt3xProposed": [
+        72,
+        567
+      ],
+      "scaleStatus": "Proposed pilot range, not a guaranteed runtime limit; current decode request is512px",
+      "orientationsDegrees": [
+        0
+      ],
+      "mirrorAllowed": false,
+      "layerOrderProposal": "existing figure order by foot; a grouped hierarchy still requires future software",
+      "neighborsAllowed": [
+        "compatible soil",
+        "same mountain family",
+        "compatible canopy"
+      ],
+      "exclusions": [
+        "sea/lake interior",
+        "road/river corridor",
+        "settlement footprint",
+        "manual protected content"
+      ],
+      "exclusionStatus": "Registration/placement and real clipping must enforce this; not guaranteed by the PNG itself",
+      "portsProposal": {
+        "left": [
+          0.05,
+          0.8
+        ],
+        "right": [
+          0.95,
+          0.8
+        ],
+        "status": "Illustration authoring targets relative to body, validate after draw; no generic ports consumer exists today"
+      },
+      "variants": [
+        "ART-HILL-GRASS-A",
+        "ART-HILL-GRASS-B"
+      ],
+      "deterministicSelectionProposal": "Future compositor may hash(world.seed,regionId,role,ordinal) within this family; not implemented. Record image-generator seed if exposed, otherwise null, never invent one.",
+      "currentEngineConsumesTheseNewFields": false,
+      "compatibility": "E",
+      "requiredFutureAction": "Catalogue, crop/anchor and role-aware selection",
+      "references": [
+        "W-REL-003/F02/F03",
+        "art-source/regional-landmarks-v1/foothills.png",
+        "target: ROI 05"
+      ]
+    },
+    {
+      "id": "ART-HILL-GRASS-B",
+      "role": "Dorsali collinari temperate",
+      "colorFamily": [
+        "#B8A848",
+        "#C8B858",
+        "#A89848",
+        "#887838",
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "biomesProposed": [
+        "temperato",
+        "terra",
+        "minerale"
+      ],
+      "dimensionsPx": [
+        1024,
+        448
+      ],
+      "sourceDpi": "Nominal 72 if the exporter requires a value; pixels are authoritative and DPI is not consumed by this renderer",
+      "geometryBoundsCanvasPx": [
+        0,
+        0,
+        1024,
+        448
+      ],
+      "visualBoundsRule": {
+        "mustFitInside": [
+          32,
+          32,
+          992,
+          416
+        ],
+        "actualBounds": "Measure alpha>7 at delivery; these are requested limits, not measurements of an existing file"
+      },
+      "originalAlpha": "Keep original RGBA master and report alpha histogram; no chroma key or matte",
+      "footprint": "At delivery: conservative64x64 occupancy alpha>=7 plus original alpha; not an external mask already consumed by the app",
+      "footEnvelope": "At delivery: top/bottom per populated alpha column in crop coordinates; no atlas-neighbor pixels",
+      "nonDissolvableArea": "Crown/summits and all meaningful silhouette above the lower foot zone; derive the foot zone per column, never a global crop of the upper mountains",
+      "transitionZone": "Short broken foot; current runtime may dissolve up to min(16% image H,24% occupied-column H). Avoid baking that dissolve a second time",
+      "anchors": {
+        "proposedFootInTightCrop": [
+          0.5,
+          1
+        ],
+        "canvasFoot": "Measure actual root after artwork/crop; do not assume padding survives packing"
+      },
+      "projectedWidthAt1280Proposed": [
+        24,
+        189
+      ],
+      "projectedWidthAt3xProposed": [
+        72,
+        567
+      ],
+      "scaleStatus": "Proposed pilot range, not a guaranteed runtime limit; current decode request is512px",
+      "orientationsDegrees": [
+        0
+      ],
+      "mirrorAllowed": false,
+      "layerOrderProposal": "existing figure order by foot; a grouped hierarchy still requires future software",
+      "neighborsAllowed": [
+        "compatible soil",
+        "same mountain family",
+        "compatible canopy"
+      ],
+      "exclusions": [
+        "sea/lake interior",
+        "road/river corridor",
+        "settlement footprint",
+        "manual protected content"
+      ],
+      "exclusionStatus": "Registration/placement and real clipping must enforce this; not guaranteed by the PNG itself",
+      "portsProposal": {
+        "left": [
+          0.05,
+          0.8
+        ],
+        "right": [
+          0.95,
+          0.8
+        ],
+        "status": "Illustration authoring targets relative to body, validate after draw; no generic ports consumer exists today"
+      },
+      "variants": [
+        "ART-HILL-GRASS-A",
+        "ART-HILL-GRASS-B"
+      ],
+      "deterministicSelectionProposal": "Future compositor may hash(world.seed,regionId,role,ordinal) within this family; not implemented. Record image-generator seed if exposed, otherwise null, never invent one.",
+      "currentEngineConsumesTheseNewFields": false,
+      "compatibility": "E",
+      "requiredFutureAction": "Catalogue, crop/anchor and role-aware selection",
+      "references": [
+        "W-REL-003/F02/F03",
+        "art-source/regional-landmarks-v1/foothills.png",
+        "target: ROI 05"
+      ]
+    },
+    {
+      "id": "ART-HILL-DRY-A",
+      "role": "Dorsali collinari aride",
+      "colorFamily": [
+        "#C6AA6A",
+        "#B49A68",
+        "#928457",
+        "#77694A",
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "biomesProposed": [
+        "arido temperato",
+        "minerale"
+      ],
+      "dimensionsPx": [
+        1024,
+        448
+      ],
+      "sourceDpi": "Nominal 72 if the exporter requires a value; pixels are authoritative and DPI is not consumed by this renderer",
+      "geometryBoundsCanvasPx": [
+        0,
+        0,
+        1024,
+        448
+      ],
+      "visualBoundsRule": {
+        "mustFitInside": [
+          32,
+          32,
+          992,
+          416
+        ],
+        "actualBounds": "Measure alpha>7 at delivery; these are requested limits, not measurements of an existing file"
+      },
+      "originalAlpha": "Keep original RGBA master and report alpha histogram; no chroma key or matte",
+      "footprint": "At delivery: conservative64x64 occupancy alpha>=7 plus original alpha; not an external mask already consumed by the app",
+      "footEnvelope": "At delivery: top/bottom per populated alpha column in crop coordinates; no atlas-neighbor pixels",
+      "nonDissolvableArea": "Crown/summits and all meaningful silhouette above the lower foot zone; derive the foot zone per column, never a global crop of the upper mountains",
+      "transitionZone": "Short broken foot; current runtime may dissolve up to min(16% image H,24% occupied-column H). Avoid baking that dissolve a second time",
+      "anchors": {
+        "proposedFootInTightCrop": [
+          0.5,
+          1
+        ],
+        "canvasFoot": "Measure actual root after artwork/crop; do not assume padding survives packing"
+      },
+      "projectedWidthAt1280Proposed": [
+        24,
+        189
+      ],
+      "projectedWidthAt3xProposed": [
+        72,
+        567
+      ],
+      "scaleStatus": "Proposed pilot range, not a guaranteed runtime limit; current decode request is512px",
+      "orientationsDegrees": [
+        0
+      ],
+      "mirrorAllowed": false,
+      "layerOrderProposal": "existing figure order by foot; a grouped hierarchy still requires future software",
+      "neighborsAllowed": [
+        "compatible soil",
+        "same mountain family",
+        "compatible canopy"
+      ],
+      "exclusions": [
+        "sea/lake interior",
+        "road/river corridor",
+        "settlement footprint",
+        "manual protected content"
+      ],
+      "exclusionStatus": "Registration/placement and real clipping must enforce this; not guaranteed by the PNG itself",
+      "portsProposal": {
+        "left": [
+          0.05,
+          0.8
+        ],
+        "right": [
+          0.95,
+          0.8
+        ],
+        "status": "Illustration authoring targets relative to body, validate after draw; no generic ports consumer exists today"
+      },
+      "variants": [
+        "ART-HILL-DRY-A",
+        "ART-HILL-DRY-B"
+      ],
+      "deterministicSelectionProposal": "Future compositor may hash(world.seed,regionId,role,ordinal) within this family; not implemented. Record image-generator seed if exposed, otherwise null, never invent one.",
+      "currentEngineConsumesTheseNewFields": false,
+      "compatibility": "E",
+      "requiredFutureAction": "Catalogue, crop/anchor and role-aware selection",
+      "references": [
+        "art-source/illustrated-v2/terrain-atlas.png: row3 col3, row4 col3",
+        "art-source/regional-landmarks-v1/foothills.png",
+        "H01"
+      ]
+    },
+    {
+      "id": "ART-HILL-DRY-B",
+      "role": "Dorsali collinari aride",
+      "colorFamily": [
+        "#C6AA6A",
+        "#B49A68",
+        "#928457",
+        "#77694A",
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "biomesProposed": [
+        "arido temperato",
+        "minerale"
+      ],
+      "dimensionsPx": [
+        1024,
+        448
+      ],
+      "sourceDpi": "Nominal 72 if the exporter requires a value; pixels are authoritative and DPI is not consumed by this renderer",
+      "geometryBoundsCanvasPx": [
+        0,
+        0,
+        1024,
+        448
+      ],
+      "visualBoundsRule": {
+        "mustFitInside": [
+          32,
+          32,
+          992,
+          416
+        ],
+        "actualBounds": "Measure alpha>7 at delivery; these are requested limits, not measurements of an existing file"
+      },
+      "originalAlpha": "Keep original RGBA master and report alpha histogram; no chroma key or matte",
+      "footprint": "At delivery: conservative64x64 occupancy alpha>=7 plus original alpha; not an external mask already consumed by the app",
+      "footEnvelope": "At delivery: top/bottom per populated alpha column in crop coordinates; no atlas-neighbor pixels",
+      "nonDissolvableArea": "Crown/summits and all meaningful silhouette above the lower foot zone; derive the foot zone per column, never a global crop of the upper mountains",
+      "transitionZone": "Short broken foot; current runtime may dissolve up to min(16% image H,24% occupied-column H). Avoid baking that dissolve a second time",
+      "anchors": {
+        "proposedFootInTightCrop": [
+          0.5,
+          1
+        ],
+        "canvasFoot": "Measure actual root after artwork/crop; do not assume padding survives packing"
+      },
+      "projectedWidthAt1280Proposed": [
+        24,
+        189
+      ],
+      "projectedWidthAt3xProposed": [
+        72,
+        567
+      ],
+      "scaleStatus": "Proposed pilot range, not a guaranteed runtime limit; current decode request is512px",
+      "orientationsDegrees": [
+        0
+      ],
+      "mirrorAllowed": false,
+      "layerOrderProposal": "existing figure order by foot; a grouped hierarchy still requires future software",
+      "neighborsAllowed": [
+        "compatible soil",
+        "same mountain family",
+        "compatible canopy"
+      ],
+      "exclusions": [
+        "sea/lake interior",
+        "road/river corridor",
+        "settlement footprint",
+        "manual protected content"
+      ],
+      "exclusionStatus": "Registration/placement and real clipping must enforce this; not guaranteed by the PNG itself",
+      "portsProposal": {
+        "left": [
+          0.05,
+          0.8
+        ],
+        "right": [
+          0.95,
+          0.8
+        ],
+        "status": "Illustration authoring targets relative to body, validate after draw; no generic ports consumer exists today"
+      },
+      "variants": [
+        "ART-HILL-DRY-A",
+        "ART-HILL-DRY-B"
+      ],
+      "deterministicSelectionProposal": "Future compositor may hash(world.seed,regionId,role,ordinal) within this family; not implemented. Record image-generator seed if exposed, otherwise null, never invent one.",
+      "currentEngineConsumesTheseNewFields": false,
+      "compatibility": "E",
+      "requiredFutureAction": "Catalogue, crop/anchor and role-aware selection",
+      "references": [
+        "art-source/illustrated-v2/terrain-atlas.png: row3 col3, row4 col3",
+        "art-source/regional-landmarks-v1/foothills.png",
+        "H01"
+      ]
+    },
+    {
+      "id": "ART-BASE-MOUNTAIN-TEMPERATE-01",
+      "role": "Base condivisa di un gruppo montuoso",
+      "colorFamily": [
+        "#B99A5B",
+        "#C6AA6A",
+        "#9B7D4D",
+        "#7E6B48",
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "biomesProposed": [
+        "temperato",
+        "terra",
+        "minerale"
+      ],
+      "dimensionsPx": [
+        1024,
+        256
+      ],
+      "sourceDpi": "Nominal 72 if the exporter requires a value; pixels are authoritative and DPI is not consumed by this renderer",
+      "geometryBoundsCanvasPx": [
+        0,
+        0,
+        1024,
+        256
+      ],
+      "visualBoundsRule": {
+        "mustFitInside": [
+          32,
+          32,
+          992,
+          224
+        ],
+        "actualBounds": "Measure alpha>7 at delivery; these are requested limits, not measurements of an existing file"
+      },
+      "originalAlpha": "Keep original RGBA master and report alpha histogram; no chroma key or matte",
+      "footprint": "At delivery: conservative64x64 occupancy alpha>=7 plus original alpha; not an external mask already consumed by the app",
+      "footEnvelope": "At delivery: top/bottom per populated alpha column in crop coordinates; no atlas-neighbor pixels",
+      "nonDissolvableArea": "No summit; keep the middle underpaint usable, soften only margins",
+      "transitionZone": "Irregular outer12–25% local radius",
+      "anchors": {
+        "proposedCenter": [
+          0.5,
+          0.5
+        ],
+        "requiresDedicatedLayer": true
+      },
+      "projectedWidthAt1280Proposed": [
+        90,
+        300
+      ],
+      "projectedWidthAt3xProposed": [
+        270,
+        900
+      ],
+      "scaleStatus": "Proposed pilot range, not a guaranteed runtime limit; current decode request is512px",
+      "orientationsDegrees": [
+        0
+      ],
+      "mirrorAllowed": false,
+      "layerOrderProposal": "terrain underpaint before relief/vegetation/roads/settlements",
+      "neighborsAllowed": [
+        "dry land",
+        "foot of relief",
+        "sparse scree"
+      ],
+      "exclusions": [
+        "sea/lake interior",
+        "road/river corridor",
+        "settlement footprint",
+        "manual protected content"
+      ],
+      "exclusionStatus": "Registration/placement and real clipping must enforce this; not guaranteed by the PNG itself",
+      "portsProposal": {
+        "left": [
+          0.05,
+          0.8
+        ],
+        "right": [
+          0.95,
+          0.8
+        ],
+        "status": "Illustration authoring targets relative to body, validate after draw; no generic ports consumer exists today"
+      },
+      "variants": [
+        "ART-BASE-MOUNTAIN-TEMPERATE-01",
+        "ART-BASE-MOUNTAIN-DRY-01"
+      ],
+      "deterministicSelectionProposal": "Future compositor may hash(world.seed,regionId,role,ordinal) within this family; not implemented. Record image-generator seed if exposed, otherwise null, never invent one.",
+      "currentEngineConsumesTheseNewFields": false,
+      "compatibility": "R",
+      "requiredFutureAction": "Explicit underpaint/group ordering, masks and protected placement",
+      "references": [
+        "target: ROI 03/06/07",
+        "W-REL-001/F02/F03",
+        "P2D-SCREE-A/B/C"
+      ]
+    },
+    {
+      "id": "ART-BASE-MOUNTAIN-DRY-01",
+      "role": "Base condivisa di un gruppo montuoso",
+      "colorFamily": [
+        "#B99A5B",
+        "#C6AA6A",
+        "#9B7D4D",
+        "#7E6B48",
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "biomesProposed": [
+        "arido temperato",
+        "minerale"
+      ],
+      "dimensionsPx": [
+        1024,
+        256
+      ],
+      "sourceDpi": "Nominal 72 if the exporter requires a value; pixels are authoritative and DPI is not consumed by this renderer",
+      "geometryBoundsCanvasPx": [
+        0,
+        0,
+        1024,
+        256
+      ],
+      "visualBoundsRule": {
+        "mustFitInside": [
+          32,
+          32,
+          992,
+          224
+        ],
+        "actualBounds": "Measure alpha>7 at delivery; these are requested limits, not measurements of an existing file"
+      },
+      "originalAlpha": "Keep original RGBA master and report alpha histogram; no chroma key or matte",
+      "footprint": "At delivery: conservative64x64 occupancy alpha>=7 plus original alpha; not an external mask already consumed by the app",
+      "footEnvelope": "At delivery: top/bottom per populated alpha column in crop coordinates; no atlas-neighbor pixels",
+      "nonDissolvableArea": "No summit; keep the middle underpaint usable, soften only margins",
+      "transitionZone": "Irregular outer12–25% local radius",
+      "anchors": {
+        "proposedCenter": [
+          0.5,
+          0.5
+        ],
+        "requiresDedicatedLayer": true
+      },
+      "projectedWidthAt1280Proposed": [
+        90,
+        300
+      ],
+      "projectedWidthAt3xProposed": [
+        270,
+        900
+      ],
+      "scaleStatus": "Proposed pilot range, not a guaranteed runtime limit; current decode request is512px",
+      "orientationsDegrees": [
+        0
+      ],
+      "mirrorAllowed": false,
+      "layerOrderProposal": "terrain underpaint before relief/vegetation/roads/settlements",
+      "neighborsAllowed": [
+        "dry land",
+        "foot of relief",
+        "sparse scree"
+      ],
+      "exclusions": [
+        "sea/lake interior",
+        "road/river corridor",
+        "settlement footprint",
+        "manual protected content"
+      ],
+      "exclusionStatus": "Registration/placement and real clipping must enforce this; not guaranteed by the PNG itself",
+      "portsProposal": {
+        "left": [
+          0.05,
+          0.8
+        ],
+        "right": [
+          0.95,
+          0.8
+        ],
+        "status": "Illustration authoring targets relative to body, validate after draw; no generic ports consumer exists today"
+      },
+      "variants": [
+        "ART-BASE-MOUNTAIN-TEMPERATE-01",
+        "ART-BASE-MOUNTAIN-DRY-01"
+      ],
+      "deterministicSelectionProposal": "Future compositor may hash(world.seed,regionId,role,ordinal) within this family; not implemented. Record image-generator seed if exposed, otherwise null, never invent one.",
+      "currentEngineConsumesTheseNewFields": false,
+      "compatibility": "R",
+      "requiredFutureAction": "Explicit underpaint/group ordering, masks and protected placement",
+      "references": [
+        "target: ROI 03/06/07",
+        "W-REL-001/F02/F03",
+        "P2D-SCREE-A/B/C"
+      ]
+    },
+    {
+      "id": "ART-FOREST-EDGE-OPEN-01",
+      "role": "Margine forestale e rientranza",
+      "colorFamily": [
+        "#485828",
+        "#384828",
+        "#283818",
+        "#758041",
+        "#777347",
+        "#8C8350",
+        "#535A35",
+        "#A0925F"
+      ],
+      "biomesProposed": [
+        "bosco temperato",
+        "margine forestale"
+      ],
+      "dimensionsPx": [
+        768,
+        384
+      ],
+      "sourceDpi": "Nominal 72 if the exporter requires a value; pixels are authoritative and DPI is not consumed by this renderer",
+      "geometryBoundsCanvasPx": [
+        0,
+        0,
+        768,
+        384
+      ],
+      "visualBoundsRule": {
+        "mustFitInside": [
+          32,
+          32,
+          736,
+          352
+        ],
+        "actualBounds": "Measure alpha>7 at delivery; these are requested limits, not measurements of an existing file"
+      },
+      "originalAlpha": "Keep original RGBA master and report alpha histogram; no chroma key or matte",
+      "footprint": "At delivery: conservative64x64 occupancy alpha>=7 plus original alpha; not an external mask already consumed by the app",
+      "footEnvelope": "At delivery: top/bottom per populated alpha column in crop coordinates; no atlas-neighbor pixels",
+      "nonDissolvableArea": "Crown/summits and all meaningful silhouette above the lower foot zone; derive the foot zone per column, never a global crop of the upper mountains",
+      "transitionZone": "Short broken foot; current runtime may dissolve up to min(16% image H,24% occupied-column H). Avoid baking that dissolve a second time",
+      "anchors": {
+        "proposedFootInTightCrop": [
+          0.5,
+          1
+        ],
+        "canvasFoot": "Measure actual root after artwork/crop; do not assume padding survives packing"
+      },
+      "projectedWidthAt1280Proposed": [
+        17,
+        60
+      ],
+      "projectedWidthAt3xProposed": [
+        51,
+        180
+      ],
+      "scaleStatus": "Proposed pilot range, not a guaranteed runtime limit; current decode request is512px",
+      "orientationsDegrees": [
+        0
+      ],
+      "mirrorAllowed": false,
+      "layerOrderProposal": "existing figure order by foot; a grouped hierarchy still requires future software",
+      "neighborsAllowed": [
+        "compatible soil",
+        "same mountain family",
+        "compatible canopy"
+      ],
+      "exclusions": [
+        "sea/lake interior",
+        "road/river corridor",
+        "settlement footprint",
+        "manual protected content"
+      ],
+      "exclusionStatus": "Registration/placement and real clipping must enforce this; not guaranteed by the PNG itself",
+      "portsProposal": null,
+      "variants": [
+        "ART-FOREST-EDGE-OPEN-01",
+        "ART-FOREST-EDGE-INLET-01"
+      ],
+      "deterministicSelectionProposal": "Future compositor may hash(world.seed,regionId,role,ordinal) within this family; not implemented. Record image-generator seed if exposed, otherwise null, never invent one.",
+      "currentEngineConsumesTheseNewFields": false,
+      "compatibility": "E",
+      "requiredFutureAction": "Catalogue, crop/anchor and role-aware selection",
+      "references": [
+        "art-source/illustrated-v2/vegetation-atlas.png: row2 col5/6",
+        "P2D-FOREST-EDGE",
+        "P2D-SHRUB",
+        "target: ROI 08"
+      ]
+    },
+    {
+      "id": "ART-FOREST-EDGE-INLET-01",
+      "role": "Margine forestale e rientranza",
+      "colorFamily": [
+        "#485828",
+        "#384828",
+        "#283818",
+        "#758041",
+        "#777347",
+        "#8C8350",
+        "#535A35",
+        "#A0925F"
+      ],
+      "biomesProposed": [
+        "bosco temperato",
+        "margine forestale"
+      ],
+      "dimensionsPx": [
+        768,
+        384
+      ],
+      "sourceDpi": "Nominal 72 if the exporter requires a value; pixels are authoritative and DPI is not consumed by this renderer",
+      "geometryBoundsCanvasPx": [
+        0,
+        0,
+        768,
+        384
+      ],
+      "visualBoundsRule": {
+        "mustFitInside": [
+          32,
+          32,
+          736,
+          352
+        ],
+        "actualBounds": "Measure alpha>7 at delivery; these are requested limits, not measurements of an existing file"
+      },
+      "originalAlpha": "Keep original RGBA master and report alpha histogram; no chroma key or matte",
+      "footprint": "At delivery: conservative64x64 occupancy alpha>=7 plus original alpha; not an external mask already consumed by the app",
+      "footEnvelope": "At delivery: top/bottom per populated alpha column in crop coordinates; no atlas-neighbor pixels",
+      "nonDissolvableArea": "Crown/summits and all meaningful silhouette above the lower foot zone; derive the foot zone per column, never a global crop of the upper mountains",
+      "transitionZone": "Short broken foot; current runtime may dissolve up to min(16% image H,24% occupied-column H). Avoid baking that dissolve a second time",
+      "anchors": {
+        "proposedFootInTightCrop": [
+          0.5,
+          1
+        ],
+        "canvasFoot": "Measure actual root after artwork/crop; do not assume padding survives packing"
+      },
+      "projectedWidthAt1280Proposed": [
+        17,
+        60
+      ],
+      "projectedWidthAt3xProposed": [
+        51,
+        180
+      ],
+      "scaleStatus": "Proposed pilot range, not a guaranteed runtime limit; current decode request is512px",
+      "orientationsDegrees": [
+        0
+      ],
+      "mirrorAllowed": false,
+      "layerOrderProposal": "existing figure order by foot; a grouped hierarchy still requires future software",
+      "neighborsAllowed": [
+        "compatible soil",
+        "same mountain family",
+        "compatible canopy"
+      ],
+      "exclusions": [
+        "sea/lake interior",
+        "road/river corridor",
+        "settlement footprint",
+        "manual protected content"
+      ],
+      "exclusionStatus": "Registration/placement and real clipping must enforce this; not guaranteed by the PNG itself",
+      "portsProposal": null,
+      "variants": [
+        "ART-FOREST-EDGE-OPEN-01",
+        "ART-FOREST-EDGE-INLET-01"
+      ],
+      "deterministicSelectionProposal": "Future compositor may hash(world.seed,regionId,role,ordinal) within this family; not implemented. Record image-generator seed if exposed, otherwise null, never invent one.",
+      "currentEngineConsumesTheseNewFields": false,
+      "compatibility": "E",
+      "requiredFutureAction": "Catalogue, crop/anchor and role-aware selection",
+      "references": [
+        "art-source/illustrated-v2/vegetation-atlas.png: row2 col5/6",
+        "P2D-FOREST-EDGE",
+        "P2D-SHRUB",
+        "target: ROI 08"
+      ]
+    },
+    {
+      "id": "ART-MOUNTAIN-MASSIF-01",
+      "role": "Massiccio alto e sella bassa coerenti",
+      "colorFamily": [
+        "#DDD0AC",
+        "#B8AB88",
+        "#77705A",
+        "#585848",
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "biomesProposed": [
+        "temperato",
+        "terra",
+        "minerale"
+      ],
+      "dimensionsPx": [
+        832,
+        672
+      ],
+      "sourceDpi": "Nominal 72 if the exporter requires a value; pixels are authoritative and DPI is not consumed by this renderer",
+      "geometryBoundsCanvasPx": [
+        0,
+        0,
+        832,
+        672
+      ],
+      "visualBoundsRule": {
+        "mustFitInside": [
+          32,
+          32,
+          800,
+          640
+        ],
+        "actualBounds": "Measure alpha>7 at delivery; these are requested limits, not measurements of an existing file"
+      },
+      "originalAlpha": "Keep original RGBA master and report alpha histogram; no chroma key or matte",
+      "footprint": "At delivery: conservative64x64 occupancy alpha>=7 plus original alpha; not an external mask already consumed by the app",
+      "footEnvelope": "At delivery: top/bottom per populated alpha column in crop coordinates; no atlas-neighbor pixels",
+      "nonDissolvableArea": "Crown/summits and all meaningful silhouette above the lower foot zone; derive the foot zone per column, never a global crop of the upper mountains",
+      "transitionZone": "Short broken foot; current runtime may dissolve up to min(16% image H,24% occupied-column H). Avoid baking that dissolve a second time",
+      "anchors": {
+        "proposedFootInTightCrop": [
+          0.5,
+          1
+        ],
+        "canvasFoot": "Measure actual root after artwork/crop; do not assume padding survives packing"
+      },
+      "projectedWidthAt1280Proposed": [
+        40,
+        170
+      ],
+      "projectedWidthAt3xProposed": [
+        120,
+        510
+      ],
+      "scaleStatus": "Proposed pilot range, not a guaranteed runtime limit; current decode request is512px",
+      "orientationsDegrees": [
+        0
+      ],
+      "mirrorAllowed": false,
+      "layerOrderProposal": "existing figure order by foot; a grouped hierarchy still requires future software",
+      "neighborsAllowed": [
+        "compatible soil",
+        "same mountain family",
+        "compatible canopy"
+      ],
+      "exclusions": [
+        "sea/lake interior",
+        "road/river corridor",
+        "settlement footprint",
+        "manual protected content"
+      ],
+      "exclusionStatus": "Registration/placement and real clipping must enforce this; not guaranteed by the PNG itself",
+      "portsProposal": {
+        "left": [
+          0.05,
+          0.8
+        ],
+        "right": [
+          0.95,
+          0.8
+        ],
+        "status": "Illustration authoring targets relative to body, validate after draw; no generic ports consumer exists today"
+      },
+      "variants": [
+        "ART-MOUNTAIN-MASSIF-01",
+        "ART-MOUNTAIN-SADDLE-01"
+      ],
+      "deterministicSelectionProposal": "Future compositor may hash(world.seed,regionId,role,ordinal) within this family; not implemented. Record image-generator seed if exposed, otherwise null, never invent one.",
+      "currentEngineConsumesTheseNewFields": false,
+      "compatibility": "E",
+      "requiredFutureAction": "Catalogue, crop/anchor and role-aware selection",
+      "references": [
+        "art-source/manual-mountain-kit-v4/massif.webp",
+        "art-source/manual-mountain-kit-v4/saddle.webp",
+        "kit v4 source PNG",
+        "W-REL-001 (controllo dettaglio)",
+        "target: ROI 07"
+      ]
+    },
+    {
+      "id": "ART-MOUNTAIN-SADDLE-01",
+      "role": "Massiccio alto e sella bassa coerenti",
+      "colorFamily": [
+        "#DDD0AC",
+        "#B8AB88",
+        "#77705A",
+        "#585848",
+        "#A49776",
+        "#B8AB88",
+        "#77705A",
+        "#585848"
+      ],
+      "biomesProposed": [
+        "temperato",
+        "terra",
+        "minerale"
+      ],
+      "dimensionsPx": [
+        832,
+        338
+      ],
+      "sourceDpi": "Nominal 72 if the exporter requires a value; pixels are authoritative and DPI is not consumed by this renderer",
+      "geometryBoundsCanvasPx": [
+        0,
+        0,
+        832,
+        338
+      ],
+      "visualBoundsRule": {
+        "mustFitInside": [
+          32,
+          32,
+          800,
+          306
+        ],
+        "actualBounds": "Measure alpha>7 at delivery; these are requested limits, not measurements of an existing file"
+      },
+      "originalAlpha": "Keep original RGBA master and report alpha histogram; no chroma key or matte",
+      "footprint": "At delivery: conservative64x64 occupancy alpha>=7 plus original alpha; not an external mask already consumed by the app",
+      "footEnvelope": "At delivery: top/bottom per populated alpha column in crop coordinates; no atlas-neighbor pixels",
+      "nonDissolvableArea": "Crown/summits and all meaningful silhouette above the lower foot zone; derive the foot zone per column, never a global crop of the upper mountains",
+      "transitionZone": "Short broken foot; current runtime may dissolve up to min(16% image H,24% occupied-column H). Avoid baking that dissolve a second time",
+      "anchors": {
+        "proposedFootInTightCrop": [
+          0.5,
+          1
+        ],
+        "canvasFoot": "Measure actual root after artwork/crop; do not assume padding survives packing"
+      },
+      "projectedWidthAt1280Proposed": [
+        40,
+        170
+      ],
+      "projectedWidthAt3xProposed": [
+        120,
+        510
+      ],
+      "scaleStatus": "Proposed pilot range, not a guaranteed runtime limit; current decode request is512px",
+      "orientationsDegrees": [
+        0
+      ],
+      "mirrorAllowed": false,
+      "layerOrderProposal": "existing figure order by foot; a grouped hierarchy still requires future software",
+      "neighborsAllowed": [
+        "compatible soil",
+        "same mountain family",
+        "compatible canopy"
+      ],
+      "exclusions": [
+        "sea/lake interior",
+        "road/river corridor",
+        "settlement footprint",
+        "manual protected content"
+      ],
+      "exclusionStatus": "Registration/placement and real clipping must enforce this; not guaranteed by the PNG itself",
+      "portsProposal": {
+        "left": [
+          0.05,
+          0.8
+        ],
+        "right": [
+          0.95,
+          0.8
+        ],
+        "status": "Illustration authoring targets relative to body, validate after draw; no generic ports consumer exists today"
+      },
+      "variants": [
+        "ART-MOUNTAIN-MASSIF-01",
+        "ART-MOUNTAIN-SADDLE-01"
+      ],
+      "deterministicSelectionProposal": "Future compositor may hash(world.seed,regionId,role,ordinal) within this family; not implemented. Record image-generator seed if exposed, otherwise null, never invent one.",
+      "currentEngineConsumesTheseNewFields": false,
+      "compatibility": "E",
+      "requiredFutureAction": "Catalogue, crop/anchor and role-aware selection",
+      "references": [
+        "art-source/manual-mountain-kit-v4/massif.webp",
+        "art-source/manual-mountain-kit-v4/saddle.webp",
+        "kit v4 source PNG",
+        "W-REL-001 (controllo dettaglio)",
+        "target: ROI 07"
+      ]
+    }
+  ]
+}

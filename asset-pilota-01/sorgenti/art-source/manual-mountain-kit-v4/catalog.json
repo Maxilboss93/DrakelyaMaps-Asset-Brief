@@ -1,0 +1,41 @@
+{
+  "experimental": true,
+  "assets": [
+    {
+      "id": "STUDY-V4-MASSIF",
+      "name": "massif",
+      "url": "/art-source/manual-mountain-kit-v4/massif.webp",
+      "sha256": "df5872e3daa54dcbfd78705e93ca13771499a415e886722920e0eafa56508959",
+      "byteSize": 161260,
+      "widthPx": 768,
+      "heightPx": 608,
+      "sourceRect": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 608
+      },
+      "illustratedNativeRatio": true,
+      "runtimeReady": false,
+      "sourceSha256": "338e221a8c799e8702963f1b4b77fab28e9f05e50d92c4ad93ae6c830905ac33"
+    },
+    {
+      "id": "STUDY-V4-SADDLE",
+      "name": "saddle",
+      "url": "/art-source/manual-mountain-kit-v4/saddle.webp",
+      "sha256": "9bacfa892e63140f701f38bc83c63b75e7db54b42d90193ccb82c9a486e77c29",
+      "byteSize": 77470,
+      "widthPx": 768,
+      "heightPx": 274,
+      "sourceRect": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 274
+      },
+      "illustratedNativeRatio": true,
+      "runtimeReady": false,
+      "sourceSha256": "0a5ef38e6da55ac5266a584ab5da2b4ca4f4e64c3a6cd3d786f4d763d9fdb7c0"
+    }
+  ]
+}
