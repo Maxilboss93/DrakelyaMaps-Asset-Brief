@@ -2,6 +2,10 @@
 
 Questo repository pubblico contiene solo la commessa grafica e le reference. Non occorre accesso al codice di Drakelya Maps. I15 master sono ancora da produrre.
 
+## Confronto sul brief
+
+Il [feedback sul lotto pilota 01](agents/references/feedback-pilota-01.md) raccoglie valutazione, proposte e decisioni aperte su composizione, scala, luce e metadati. È un riferimento per il confronto con il collega; non modifica le istruzioni operative seguenti né approva la produzione del lotto completo.
+
 ## Azione iniziale
 
 Leggi il pacchetto Drakelya Maps allegato. Le immagini sono componenti modulari per una mappa fantasy generativa 2D, con qualità pittorica guidata da reference/DRAKELYA_VISUAL_TARGET.jpg.
